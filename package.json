@@ -1,0 +1,20 @@
+{
+  "name": "v-invoice",
+  "version": "0.0.1",
+  "description": "Invoice component for vuejs 2",
+  "main": "dist/Invoice.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.5.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
