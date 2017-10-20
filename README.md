@@ -12,10 +12,11 @@
 Install *v-invoice*:
 
 ```bash
-# Either globally
+# Npm
 npm i --save yoanmarchal/v-invoice
-# Or locally (preferred)
-yarn add yoanmarchal/v-invoice
+npm i --save vue2-filters
+# Yarn
+yarn add yoanmarchal/v-invoice vue2-filters
 ```
 
 Then use the component in an Vuejs project:
