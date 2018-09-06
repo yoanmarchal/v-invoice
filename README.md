@@ -5,6 +5,7 @@
 ## Badges
 
 [![Known Vulnerabilities](https://snyk.io/test/github/yoanmarchal/v-invoice/badge.svg)](https://snyk.io/test/github/yoanmarchal/v-invoice)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyoanmarchal%2Fv-invoice.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyoanmarchal%2Fv-invoice?ref=badge_shield)
 
 
 ## Introduction
@@ -103,3 +104,7 @@ export default {
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyoanmarchal%2Fv-invoice.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyoanmarchal%2Fv-invoice?ref=badge_large)
