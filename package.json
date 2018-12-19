@@ -12,7 +12,7 @@
     "bulma": "^0.7.0"
   },
   "devDependencies": {
-    "node-sass": "4.7.1",
+    "node-sass": "4.11.0",
     "sass-loader": "6.0.6",
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.4"
