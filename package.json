@@ -1,20 +1,36 @@
 {
   "name": "v-invoice",
-  "version": "0.0.1",
-  "description": "Invoice component for vuejs 2",
-  "main": "dist/Invoice.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve --target lib --name v-invoice ./src/index.js",
+    "ui": "vue ui",
+    "build": "vue-cli-service build --target lib --name v-invoice ./src/index.js",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bulma": "^0.7.0"
+    "bulma": "^0.7.2",
+    "vue": "^2.5.17",
+    "vue-date-fns": "^1.0.0",
+    "vue2-filters": "^0.4.1"
   },
   "devDependencies": {
-    "node-sass": "4.11.0",
-    "sass-loader": "7.1.0",
-    "webpack": "4.28.0",
-    "webpack-dev-server": "3.1.10"
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-plugin-unit-jest": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.17"
   }
 }
