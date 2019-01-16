@@ -10,7 +10,7 @@
     </div>
 
     <div class="module__title content has-text-centered">
-        <h1>FACTURE</h1>
+        <h1>{{title}}</h1>
     </div>
 
     <div class="columns module__payement__mode">
@@ -31,11 +31,11 @@
       </thead>
       <tbody>
         <tr v-for="item in devis['products']" :key="item.id">
-            <td>{{item.id}}</td>
-            <td>{{item.title}}</td>
-            <td>{{item.quantity}}</td>
-            <td>{{item.price}}</td>
-            <td> {{ item.price * item.quantity | currency('€') }}</td>
+            <td>{{ item.id }}</td>
+            <td>{{ item.title }}</td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.price }}</td>
+            <td>{{ item.price * item.quantity | currency('€') }}</td>
         </tr>
       </tbody>
     </table>
@@ -78,14 +78,25 @@
 </template>
 
 <script>
-import From from './From.vue'
-import Infos from './Infos.vue'
-import To from './To.vue'
-
 export default {
-  name: 'devis',
+  name: 'invoice',
+  components: {
+    From: () => import('./From.vue'),
+    Infos: () => import('./Infos.vue'),
+    To: () => import('./To.vue')
+  },
   props: ['devis'],
+   data () {
+    return {
+      config: {
+        title: 'Facture'
+      }
+    }
+  },
   computed: {
+    title() {
+      return this.config.title;
+    },
     total(){
       return this.devis.products.map((product) => {
         return (product.price * product.quantity)

@@ -24,7 +24,9 @@ module.exports = {
           'components/component-b',
           'components/invoice',
           'components/from',
-          'components/test'
+          'components/test',
+          'components/to',
+          'components/infos'
         ]
       }
     ]

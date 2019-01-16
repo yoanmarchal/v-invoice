@@ -1,5 +1,5 @@
 <template>
-  <From :from="devis.from"/>
+  <To :to="devis.to"/>
 </template>
 
 <script>
