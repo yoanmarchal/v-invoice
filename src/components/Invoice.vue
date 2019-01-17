@@ -4,7 +4,7 @@
       <From :from='devis.from'/>
       <Infos :infos='devis'/>
     </div>
-    
+
     <div class="columns module__to">
       <To :to='devis.to'/>
     </div>
@@ -40,7 +40,6 @@
       </tbody>
     </table>
 
-   
     <div class="columns module__details__footer">
       <div class="column is-6 ">
         Pénalités de retard au taux annuel de : 12,00 %
@@ -86,7 +85,7 @@ export default {
     To: () => import('./To.vue')
   },
   props: ['devis'],
-   data () {
+  data () {
     return {
       config: {
         title: 'Facture'
@@ -94,15 +93,15 @@ export default {
     }
   },
   computed: {
-    title() {
-      return this.config.title;
+    title () {
+      return this.config.title
     },
-    total(){
+    total () {
       return this.devis.products.map((product) => {
         return (product.price * product.quantity)
       }).reduce((sum, elem) => sum + elem)
     },
-    toPay(){
+    toPay () {
       return (this.total - this.devis.alreadypaid)
     }
   }

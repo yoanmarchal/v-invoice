@@ -12,14 +12,14 @@
   </div>
 </template>
 <script>
-import { createDateFilter } from "vue-date-fns";
-import locale from "date-fns/locale/fr";
+import { createDateFilter } from 'vue-date-fns'
+import locale from 'date-fns/locale/fr'
 
 export default {
-    name: 'infos',
-    props: ['infos'],
-    filters: {
-        date: createDateFilter("DD MMMM YYYY", { locale })
-    }
+  name: 'infos',
+  props: ['infos'],
+  filters: {
+    date: createDateFilter('DD MMMM YYYY', { locale })
+  }
 }
 </script>

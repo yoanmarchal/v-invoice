@@ -11,7 +11,7 @@ export {
   ComponentB,
   Invoice,
   From,
-  To, 
+  To,
   Test,
   Infos
 }

@@ -12,7 +12,7 @@
 </template>
 <script>
 export default {
-    name: 'to',
-    props: ['to']
+  name: 'to',
+  props: ['to']
 }
 </script>
