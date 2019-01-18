@@ -1,0 +1,2 @@
+(("undefined"!==typeof self?self:this)["webpackJsonpv_invoice"]=("undefined"!==typeof self?self:this)["webpackJsonpv_invoice"]||[]).push([[3],{fd2d:function(e,n,t){"use strict";t.r(n);var s=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"module__entreprise__special"},[t("hr"),t("small",[e._v("\n    "+e._s(e.content)+"\n  ")])])},l=[],i={props:["content"]},o=i,c=t("2877"),f=Object(c["a"])(o,s,l,!1,null,null,null);f.options.__file="Footer.vue";n["default"]=f.exports}}]);
+//# sourceMappingURL=v-invoice.umd.min.3.js.map

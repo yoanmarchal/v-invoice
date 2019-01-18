@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --watch",
     "ui": "vue ui",
     "build": "vue-cli-service build --target lib --name v-invoice ./src/index.js",
     "lint": "vue-cli-service lint",

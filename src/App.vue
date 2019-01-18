@@ -1,19 +1,23 @@
 <template>
-  <Invoice :devis='devis'/>
+  <Invoice :devis='devis' :config='config'/>
 </template>
 
 <script>
 import Invoice from './components/Invoice.vue'
 
 export default {
-  name: 'invoice',
+  name: 'App',
   components: {
     Invoice
   },
   data () {
     return {
       config: {
-        title: 'Facture'
+        title: 'Facture',
+        footerContent: "Dispensé d'immatriculation en application de l'article L123-1-1 du code de commerce ou en application du V de l'article 19 de la loi n°96-603 du 5 juillet 1996 relative au développement du commerce et de l'artisanat.",
+        LegalInfos: `Pénalités de retard au taux annuel de : 12,00 %
+      Pas d'escompte en cas de paiement anticipé
+      TVA non applicable, art.293-B du CGI`
       },
       devis: {
         from: {

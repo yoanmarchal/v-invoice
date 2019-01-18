@@ -17,3 +17,11 @@ export default {
   props: ['from']
 }
 </script>
+<style lang="scss" scoped>
+  .societe{
+    .title{
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  }
+</style>
