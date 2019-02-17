@@ -1,5 +1,5 @@
 <template>
-  <Invoice :devis="devis"/>
+  <Invoice :devis="devis" :config="config"/>
 </template>
 
 <script>
@@ -48,6 +48,9 @@ export default {
         ],
         alreadypaid: 50,
         paymentmode:"chèque"
+      },
+      config: {
+        title: "Facture"
       }
     }
   }

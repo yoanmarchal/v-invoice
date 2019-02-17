@@ -9,7 +9,7 @@ The following example is using a demo component `.vuepress/component/InvoiceDemo
 The demo code can be included via 
 
 ``` js
-<Invoice :devis="devis"/>
+<Invoice :devis="devis" :config="config"/>
 export default {
   data () {
     return {
@@ -55,6 +55,9 @@ export default {
         ],
         alreadypaid: 50,
         paymentmode:"chèque"
+      },
+      config: {
+        title: "Facture"
       }
     }
   }
@@ -62,9 +65,10 @@ export default {
 ```
 
 ## Props
-Name | Type   | Description | Default
----- | :----: | ----------- | -----
-prop |        |             | 
+Name  | Type   | Description | Default
+----  | :----: | ----------- | -----
+devis |        |             | 
+config|        |             | 
 
 ## Slots
 Name     | Slot props       | Description
