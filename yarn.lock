@@ -9562,7 +9562,7 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-date-fns@1.0.0:
+vue-date-fns@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vue-date-fns/-/vue-date-fns-1.0.0.tgz#2d41f8679e3f3110065ec45872afe0d48759a622"
   integrity sha512-Tvv4+6TBeqaRiBTZT1jW28xb7PPGHLfaIfqNHXDq6oKlCoQMhKrX7nNX19xLb+dghd+ezEpxFdpZfxgiUxMR9w==
