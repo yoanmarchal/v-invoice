@@ -2,6 +2,9 @@ module.exports = {
   base: '/',
   title: 'v-invoice',
   description: 'Just playing around',
+  plugins: [
+    '@vuepress/nprogress',
+  ],
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

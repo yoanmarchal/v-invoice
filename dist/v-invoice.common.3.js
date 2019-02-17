@@ -6,7 +6,7 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"22550d4c-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Footer.vue?vue&type=template&id=f102ca8c&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"0bcc699f-vue-loader-template"}!./node_modules/@vue/cli-service/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Footer.vue?vue&type=template&id=f102ca8c&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"module__entreprise__special"},[_c('hr'),_c('small',[_vm._v("\n    "+_vm._s(_vm.content)+"\n  ")])])}
 var staticRenderFns = []
 
@@ -49,7 +49,6 @@ var component = Object(componentNormalizer["a" /* default */])(
   
 )
 
-component.options.__file = "Footer.vue"
 /* harmony default export */ var Footer = __webpack_exports__["default"] = (component.exports);
 
 /***/ })

@@ -12,6 +12,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "@vuepress/plugin-nprogress": "^1.0.0-alpha.31",
     "bulma": "0.7.2",
     "vue": "2.6.6"
   },
@@ -22,6 +23,8 @@
     "@vue/cli-service": "3.3.0",
     "@vue/eslint-config-standard": "4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
+    "@vuepress/plugin-search": "^1.0.0-alpha.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.1",
     "babel-jest": "23.6.0",
@@ -29,7 +32,8 @@
     "eslint-plugin-vue": "5.1.0",
     "node-sass": "4.11.0",
     "sass-loader": "7.1.0",
-    "vue-template-compiler": "2.5.22",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.6.6",
     "vuepress": "^1.0.0-alpha.39"
   }
 }
