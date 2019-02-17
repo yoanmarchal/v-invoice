@@ -1039,7 +1039,7 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@^1.0.0-alpha.0":
+"@vuepress/plugin-active-header-links@1.0.0-alpha.0":
   version "1.0.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.0.0-alpha.0.tgz#aa127fb5bd5d504fb9cbd65ca5e2fa37fd1cc324"
   integrity sha512-oB8MJeMh+7LWyaSGRAPPcw6mVfqy+8XP3BgLGrMVFisAhBpAzNgvOrKIzdtbJybRXd25Xt1A6lNglmyg0dYbyg==
@@ -1060,7 +1060,7 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-nprogress@^1.0.0-alpha.31":
+"@vuepress/plugin-nprogress@1.0.0-alpha.31":
   version "1.0.0-alpha.31"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.0.0-alpha.31.tgz#f250bf20cf613a2b5cc3c0716b7e2d13465d9402"
   integrity sha512-Wr7eCtiG8MctloFc0YnPhnV0rw5N95+bMyGpr1cldS9wGjpA1ROb7iW9KcmZuSc24H6f2XD7nwd+y2WM3Kk+CQ==
@@ -1081,7 +1081,7 @@
   dependencies:
     "@vuepress/shared-utils" "^1.0.0-alpha.39"
 
-"@vuepress/plugin-search@^1.0.0-alpha.0":
+"@vuepress/plugin-search@1.0.0-alpha.0":
   version "1.0.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-alpha.0.tgz#9faf04047d03a16f0bb5d98bee0df3435e3c8c58"
   integrity sha512-FELGWmLIG8GX8MlMGRDfqiQiHnq6MC122H/d033inQ5X1hhVI1lIOoHIFd8gecgx/jaCZSnKx9oKU3ZvnDd0Cw==
@@ -10976,7 +10976,7 @@ vue-jest@^3.0.2:
     tsconfig "^7.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-loader@^15.2.4, vue-loader@^15.6.2:
+vue-loader@15.6.2, vue-loader@^15.2.4:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.6.2.tgz#892741d96260936ff69e892f72ec361ba4d100d2"
   integrity sha512-T6fONodj861M3PqZ1jlbUFjeezbUnPRY2bd+3eZuDvYADgkN3VFU2H5feqySNg9XBt8rcbyBGmFWTZtrOX+v5w==
@@ -11025,7 +11025,7 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.16, vue-template-compiler@^2.6.6:
+vue-template-compiler@2.6.6, vue-template-compiler@^2.5.16:
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.6.tgz#a807acbf3d51971d3721d75ecb1b927b517c1a02"
   integrity sha512-OakxDGyrmMQViCjkakQFbDZlG0NibiOzpLauOfyCUVRQc9yPmTqpiz9nF0VeA+dFkXegetw0E5x65BFhhLXO0A==
@@ -11061,7 +11061,7 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress@^1.0.0-alpha.39:
+vuepress@1.0.0-alpha.39:
   version "1.0.0-alpha.39"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.0.0-alpha.39.tgz#2d2a1e6baf2d7350d39d8922769db7c994597f43"
   integrity sha512-8aI1zDCZD9OkJLMg3gSdKf7rP1yY0+CW88gfJ9Ge66XUyY/mNE9+JAqFA7y+6G/lhbfVedBss4SAFCBaL6AWBA==
