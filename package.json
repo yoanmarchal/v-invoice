@@ -18,10 +18,10 @@
     "vue2-filters": "0.4.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "3.3.0",
-    "@vue/cli-plugin-eslint": "3.3.0",
-    "@vue/cli-plugin-unit-jest": "3.3.0",
-    "@vue/cli-service": "3.3.0",
+    "@vue/cli-plugin-babel": "3.4.0",
+    "@vue/cli-plugin-eslint": "3.4.0",
+    "@vue/cli-plugin-unit-jest": "3.4.0",
+    "@vue/cli-service": "3.4.0",
     "@vue/eslint-config-standard": "4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "6.26.3",
