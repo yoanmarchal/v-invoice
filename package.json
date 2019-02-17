@@ -31,6 +31,7 @@
     "eslint-plugin-vue": "5.1.0",
     "node-sass": "4.11.0",
     "sass-loader": "7.1.0",
-    "vue-template-compiler": "2.5.22"
+    "vue-template-compiler": "2.5.22",
+    "vuepress": "^0.14.9"
   }
 }
