@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/docs/',
+  base: '/',
   title: 'v-invoice',
   description: 'Just playing around',
   themeConfig: {
