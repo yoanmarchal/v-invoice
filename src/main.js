@@ -1,12 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Vue2Filters from 'vue2-filters'
-import VueDateFns from "vue-date-fns";
+import DateFilter from './filters/date' // Import date
+import CurrencyFilter from './filters/euro' // Import currency
 
-Vue.use(VueDateFns)
-
-Vue.use(Vue2Filters)
-
+Vue.filter('currency', CurrencyFilter)
+Vue.filter('date', DateFilter)
 Vue.config.productionTip = false
 
 new Vue({
