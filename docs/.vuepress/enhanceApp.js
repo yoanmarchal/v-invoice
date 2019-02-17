@@ -1,4 +1,5 @@
 import * as mylib from '../../src'
+import { createDateFilter } from "vue-date-fns";
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -7,4 +8,5 @@ export default ({
   siteData // site metadata
 }) => {
   Vue.use(mylib)
+  Vue.use(createDateFilter)
 }
