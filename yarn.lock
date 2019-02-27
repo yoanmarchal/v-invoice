@@ -1051,10 +1051,10 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-nprogress@1.0.0-alpha.31":
-  version "1.0.0-alpha.31"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.0.0-alpha.31.tgz#f250bf20cf613a2b5cc3c0716b7e2d13465d9402"
-  integrity sha512-Wr7eCtiG8MctloFc0YnPhnV0rw5N95+bMyGpr1cldS9wGjpA1ROb7iW9KcmZuSc24H6f2XD7nwd+y2WM3Kk+CQ==
+"@vuepress/plugin-nprogress@1.0.0-alpha.40":
+  version "1.0.0-alpha.40"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.0.0-alpha.40.tgz#31da472642558a1a9f935a43468750a0507315b8"
+  integrity sha512-a00rP3u7ygnWn1tiIaGD0qYFlFRYg3117WFkQJiINdNVX4h6B4dsk90/BcnJJJNBmC0mFuNB9qRIiX0A9kAEiw==
   dependencies:
     nprogress "^0.2.0"
 
