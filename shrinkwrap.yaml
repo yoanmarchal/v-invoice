@@ -18,7 +18,7 @@ devDependencies:
   eslint-plugin-vue: 5.2.2
   node-sass: 4.11.0
   sass-loader: 7.1.0
-  vue-loader: 15.6.2
+  vue-loader: 15.6.4
   vue-template-compiler: 2.6.6
   vuepress: 1.0.0-alpha.39
 packages:
@@ -1026,7 +1026,7 @@ packages:
       terser-webpack-plugin: /terser-webpack-plugin/1.2.3/webpack@4.28.4
       thread-loader: /thread-loader/2.1.2/webpack@4.28.4
       url-loader: /url-loader/1.1.2/webpack@4.28.4
-      vue-loader: /vue-loader/15.6.2/css-loader@1.0.1+webpack@4.28.4
+      vue-loader: /vue-loader/15.6.4/css-loader@1.0.1+webpack@4.28.4
       webpack: /webpack/4.28.4/webpack@4.28.4
       webpack-bundle-analyzer: 3.0.4
       webpack-chain: 4.12.1
@@ -1136,7 +1136,7 @@ packages:
       toml: 2.3.6
       url-loader: /url-loader/1.1.2/webpack@4.29.5
       vue: 2.6.6
-      vue-loader: /vue-loader/15.6.2/a0e8fd19dbe78fc2bdfb69e9929d8839
+      vue-loader: /vue-loader/15.6.4/a0e8fd19dbe78fc2bdfb69e9929d8839
       vue-router: 3.0.2
       vue-server-renderer: 2.6.7
       vue-template-compiler: 2.6.6
@@ -11151,7 +11151,7 @@ packages:
       vue-template-compiler: ^2.x
     resolution:
       integrity: sha512-QwFQjkv2vXYPKUkNZkMbV/ZTHyQhRM1JY8nP68dRLQmdvCN+VUEKhlByH/PgPqDr2p/NuhaM3PUjJ9nreR++3w==
-  /vue-loader/15.6.2:
+  /vue-loader/15.6.4:
     dependencies:
       '@vue/component-compiler-utils': 2.6.0
       hash-sum: 1.0.2
@@ -11163,8 +11163,8 @@ packages:
       css-loader: '*'
       webpack: ^4.1.0 || ^5.0.0-0
     resolution:
-      integrity: sha512-T6fONodj861M3PqZ1jlbUFjeezbUnPRY2bd+3eZuDvYADgkN3VFU2H5feqySNg9XBt8rcbyBGmFWTZtrOX+v5w==
-  /vue-loader/15.6.2/a0e8fd19dbe78fc2bdfb69e9929d8839:
+      integrity: sha512-GImqWcO3OsiRYS/zfMhmthFd1xwL68AAE5gAHhzNCI4SLNSxIlB9YmjgJS89anqViWSyl0mnAmyXNYHs7sydFw==
+  /vue-loader/15.6.4/a0e8fd19dbe78fc2bdfb69e9929d8839:
     dependencies:
       '@vue/component-compiler-utils': 2.6.0
       css-loader: 0.28.11
@@ -11174,13 +11174,13 @@ packages:
       vue-style-loader: 4.1.2
       webpack: /webpack/4.29.5/webpack@4.29.5
     dev: true
-    id: registry.npmjs.org/vue-loader/15.6.2
+    id: registry.npmjs.org/vue-loader/15.6.4
     peerDependencies:
       css-loader: '*'
       webpack: ^4.1.0 || ^5.0.0-0
     resolution:
-      integrity: sha512-T6fONodj861M3PqZ1jlbUFjeezbUnPRY2bd+3eZuDvYADgkN3VFU2H5feqySNg9XBt8rcbyBGmFWTZtrOX+v5w==
-  /vue-loader/15.6.2/css-loader@1.0.1+webpack@4.28.4:
+      integrity: sha512-GImqWcO3OsiRYS/zfMhmthFd1xwL68AAE5gAHhzNCI4SLNSxIlB9YmjgJS89anqViWSyl0mnAmyXNYHs7sydFw==
+  /vue-loader/15.6.4/css-loader@1.0.1+webpack@4.28.4:
     dependencies:
       '@vue/component-compiler-utils': 2.6.0
       css-loader: /css-loader/1.0.1/webpack@4.28.4
@@ -11190,12 +11190,12 @@ packages:
       vue-style-loader: 4.1.2
       webpack: /webpack/4.28.4/webpack@4.28.4
     dev: true
-    id: registry.npmjs.org/vue-loader/15.6.2
+    id: registry.npmjs.org/vue-loader/15.6.4
     peerDependencies:
       css-loader: '*'
       webpack: ^4.1.0 || ^5.0.0-0
     resolution:
-      integrity: sha512-T6fONodj861M3PqZ1jlbUFjeezbUnPRY2bd+3eZuDvYADgkN3VFU2H5feqySNg9XBt8rcbyBGmFWTZtrOX+v5w==
+      integrity: sha512-GImqWcO3OsiRYS/zfMhmthFd1xwL68AAE5gAHhzNCI4SLNSxIlB9YmjgJS89anqViWSyl0mnAmyXNYHs7sydFw==
   /vue-router/3.0.2:
     dev: true
     resolution:
@@ -11835,6 +11835,6 @@ specifiers:
   node-sass: 4.11.0
   sass-loader: 7.1.0
   vue: 2.6.6
-  vue-loader: 15.6.2
+  vue-loader: 15.6.4
   vue-template-compiler: 2.6.6
   vuepress: 1.0.0-alpha.39
