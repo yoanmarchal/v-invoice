@@ -1039,14 +1039,7 @@
     markdown-it-table-of-contents "^0.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.0.0-alpha.39":
-  version "1.0.0-alpha.39"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.0.0-alpha.39.tgz#55a1dea80cee9e7534fe98e93036c3bccbc601c2"
-  integrity sha512-im/z7Ooe5BtM7U0gU9oYIGw4Jg94xusKKGj/jJYTHbPKk2xe9NiGnhi9IUDVltm2rTc274kGvmc/trSZOPStCA==
-  dependencies:
-    lodash.throttle "^4.1.1"
-
-"@vuepress/plugin-active-header-links@^1.0.0-alpha.40":
+"@vuepress/plugin-active-header-links@1.0.0-alpha.40", "@vuepress/plugin-active-header-links@^1.0.0-alpha.40":
   version "1.0.0-alpha.40"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.0.0-alpha.40.tgz#b40a8442ace4dbd7b6dd8439415dbd0140ec5136"
   integrity sha512-SlDJJQdHDVAW2NrSkrxoNBGQdDWrUJHdEBwv8Yz6mkraeENZI0d4mdwsOmt5K1ogI7XolbBjxsKcLzNRoKRdpA==
@@ -1074,12 +1067,7 @@
   dependencies:
     "@vuepress/shared-utils" "^1.0.0-alpha.40"
 
-"@vuepress/plugin-search@1.0.0-alpha.40":
-  version "1.0.0-alpha.40"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-alpha.40.tgz#f8bd8cbe7718ae3e321d416b91d79f3649b3ed60"
-  integrity sha512-fkegCi9DusE5QvbtBI5SXRXbEAJodvBkRVnmHgVcxJGjheH7XKVakFz9UF5GwRDOrFjppY8oNuTBEZzxbqkCsQ==
-
-"@vuepress/plugin-search@^1.0.0-alpha.40":
+"@vuepress/plugin-search@1.0.0-alpha.40", "@vuepress/plugin-search@^1.0.0-alpha.40":
   version "1.0.0-alpha.40"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-alpha.40.tgz#f8bd8cbe7718ae3e321d416b91d79f3649b3ed60"
   integrity sha512-fkegCi9DusE5QvbtBI5SXRXbEAJodvBkRVnmHgVcxJGjheH7XKVakFz9UF5GwRDOrFjppY8oNuTBEZzxbqkCsQ==
