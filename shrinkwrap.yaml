@@ -10,7 +10,7 @@ devDependencies:
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
   '@vuepress/plugin-active-header-links': 1.0.0-alpha.39
-  '@vuepress/plugin-search': 1.0.0-alpha.0
+  '@vuepress/plugin-search': 1.0.0-alpha.40
   babel-core: 6.26.3
   babel-eslint: 10.0.1
   babel-jest: 23.6.0
@@ -1202,10 +1202,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Gb7bAaczSN27pOEPVk8iMM0SChTZgKoq2hy481Kn6RXwedT+D+G4s1KqOmoc37WizLZZXa+b5B3vTVghAbC/oA==
-  /@vuepress/plugin-search/1.0.0-alpha.0:
-    dev: true
-    resolution:
-      integrity: sha512-FELGWmLIG8GX8MlMGRDfqiQiHnq6MC122H/d033inQ5X1hhVI1lIOoHIFd8gecgx/jaCZSnKx9oKU3ZvnDd0Cw==
   /@vuepress/plugin-search/1.0.0-alpha.40:
     dev: true
     resolution:
@@ -2420,7 +2416,7 @@ packages:
       integrity: sha1-qk62jl17ZYuqa/alfmMMvXqT0pg=
   /browserify-zlib/0.2.0:
     dependencies:
-      pako: 1.0.9
+      pako: 1.0.10
     dev: true
     resolution:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
@@ -8138,10 +8134,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-hMp0onDKIajHfIkdRk3P4CdCmErkYAxxDtP3Wx/4nZ3aGlau2VKh3mZpcuFkH27WQkL/3WBCPOktzA9ZOAnMQQ==
-  /pako/1.0.9:
+  /pako/1.0.10:
     dev: true
     resolution:
-      integrity: sha512-tPjtE6dq+dOSg8NMkqRmFjUYH9fect1zmYgB0g6ztQMaVNI7N1CEvLZud2bPHhg7PRgfKEeTshSPiqXb1F7A+A==
+      integrity: sha512-0DTvPVU3ed8+HNXOu5Bs+o//Mbdj9VNQMUOe9oKCwh8l0GNwpTDMKCWbRjgtD291AWnkAgkqA/LOnQS8AmS1tw==
   /parallel-transform/1.1.0:
     dependencies:
       cyclist: 0.2.2
@@ -11826,7 +11822,7 @@ specifiers:
   '@vue/test-utils': 1.0.0-beta.29
   '@vuepress/plugin-active-header-links': 1.0.0-alpha.39
   '@vuepress/plugin-nprogress': 1.0.0-alpha.40
-  '@vuepress/plugin-search': 1.0.0-alpha.0
+  '@vuepress/plugin-search': 1.0.0-alpha.40
   babel-core: 6.26.3
   babel-eslint: 10.0.1
   babel-jest: 23.6.0
