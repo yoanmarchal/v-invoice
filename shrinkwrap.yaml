@@ -9,7 +9,7 @@ devDependencies:
   '@vue/cli-service': 3.4.1
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
-  '@vuepress/plugin-active-header-links': 1.0.0-alpha.39
+  '@vuepress/plugin-active-header-links': 1.0.0-alpha.40
   '@vuepress/plugin-search': 1.0.0-alpha.40
   babel-core: 6.26.3
   babel-eslint: 10.0.1
@@ -1173,12 +1173,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Er+mVNt0Al65XfXgR6GgdRbuBSzTCWQl79605GW1YwdY9yEh7hh39oPYRupf8W9+hV/ScWj2M/Wnx6vXLDTEUQ==
-  /@vuepress/plugin-active-header-links/1.0.0-alpha.39:
-    dependencies:
-      lodash.throttle: 4.1.1
-    dev: true
-    resolution:
-      integrity: sha512-im/z7Ooe5BtM7U0gU9oYIGw4Jg94xusKKGj/jJYTHbPKk2xe9NiGnhi9IUDVltm2rTc274kGvmc/trSZOPStCA==
   /@vuepress/plugin-active-header-links/1.0.0-alpha.40:
     dependencies:
       lodash.throttle: 4.1.1
@@ -11851,7 +11845,7 @@ specifiers:
   '@vue/cli-service': 3.4.1
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
-  '@vuepress/plugin-active-header-links': 1.0.0-alpha.39
+  '@vuepress/plugin-active-header-links': 1.0.0-alpha.40
   '@vuepress/plugin-nprogress': 1.0.0-alpha.40
   '@vuepress/plugin-search': 1.0.0-alpha.40
   babel-core: 6.26.3
