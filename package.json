@@ -34,6 +34,6 @@
     "sass-loader": "7.1.0",
     "vue-loader": "15.7.0",
     "vue-template-compiler": "2.6.6",
-    "vuepress": "1.0.0-alpha.40"
+    "vuepress": "1.0.0-alpha.42"
   }
 }
