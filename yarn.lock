@@ -1038,14 +1038,7 @@
     markdown-it-emoji "^1.4.0"
     prismjs "^1.13.0"
 
-"@vuepress/plugin-active-header-links@1.0.0-alpha.40":
-  version "1.0.0-alpha.40"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.0.0-alpha.40.tgz#b40a8442ace4dbd7b6dd8439415dbd0140ec5136"
-  integrity sha512-SlDJJQdHDVAW2NrSkrxoNBGQdDWrUJHdEBwv8Yz6mkraeENZI0d4mdwsOmt5K1ogI7XolbBjxsKcLzNRoKRdpA==
-  dependencies:
-    lodash.throttle "^4.1.1"
-
-"@vuepress/plugin-active-header-links@^1.0.0-alpha.42":
+"@vuepress/plugin-active-header-links@1.0.0-alpha.42", "@vuepress/plugin-active-header-links@^1.0.0-alpha.42":
   version "1.0.0-alpha.42"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-active-header-links/-/plugin-active-header-links-1.0.0-alpha.42.tgz#036b688b26360237824cfeec623f44790a58914a"
   integrity sha512-hu5AaXkLvEkuJ23a5o4dR68FRrpI4HtiQbP4tmSeFiu4l3njIMalmbiVGNqvctZ8zlFUK9LLcojpihSVDqnkeQ==

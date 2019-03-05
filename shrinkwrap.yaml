@@ -9,7 +9,7 @@ devDependencies:
   '@vue/cli-service': 3.4.1
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
-  '@vuepress/plugin-active-header-links': 1.0.0-alpha.40
+  '@vuepress/plugin-active-header-links': 1.0.0-alpha.42
   '@vuepress/plugin-search': 1.0.0-alpha.42
   babel-core: 6.26.3
   babel-eslint: 10.0.1
@@ -306,7 +306,7 @@ packages:
       '@babel/core': 7.3.4
       '@babel/helper-plugin-utils': 7.0.0
       '@babel/helper-regex': 7.0.0
-      regexpu-core: 4.4.0
+      regexpu-core: 4.5.2
     dev: true
     engines:
       node: '>=4'
@@ -470,7 +470,7 @@ packages:
       '@babel/core': 7.3.4
       '@babel/helper-plugin-utils': 7.0.0
       '@babel/helper-regex': 7.0.0
-      regexpu-core: 4.4.0
+      regexpu-core: 4.5.2
     dev: true
     engines:
       node: '>=4'
@@ -699,7 +699,7 @@ packages:
       '@babel/core': 7.3.4
       '@babel/helper-plugin-utils': 7.0.0
       '@babel/helper-regex': 7.0.0
-      regexpu-core: 4.4.0
+      regexpu-core: 4.5.2
     dev: true
     id: registry.npmjs.org/@babel/plugin-transform-unicode-regex/7.2.0
     peerDependencies:
@@ -1192,12 +1192,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-XiU7GvO/QpD8PRtOf6canwb0L+LylroN6kRuFvz0ULAM+R4r7P6O+b/tbzkuUjbRKiJCSz0JYpJGxibGIqm1DA==
-  /@vuepress/plugin-active-header-links/1.0.0-alpha.40:
-    dependencies:
-      lodash.throttle: 4.1.1
-    dev: true
-    resolution:
-      integrity: sha512-SlDJJQdHDVAW2NrSkrxoNBGQdDWrUJHdEBwv8Yz6mkraeENZI0d4mdwsOmt5K1ogI7XolbBjxsKcLzNRoKRdpA==
   /@vuepress/plugin-active-header-links/1.0.0-alpha.42:
     dependencies:
       lodash.throttle: 4.1.1
@@ -9381,14 +9375,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-xX7Fxke/oHO5IfZSk77lvPa/7bjMh9BuCk4OOoX5XTXrM7s0Z+MkPfSDfz0q7r91BhhGSs8gii/VEN/7zhCPpQ==
-  /regenerate-unicode-properties/7.0.0:
+  /regenerate-unicode-properties/8.0.0:
     dependencies:
       regenerate: 1.4.0
     dev: true
     engines:
       node: '>=4'
     resolution:
-      integrity: sha512-s5NGghCE4itSlUS+0WUj88G6cfMVMmH8boTPNvABf8od+2dhT9WDlWu8n01raQAJZMOK8Ch6jSexaRO7swd6aw==
+      integrity: sha512-tlYkVh6F/QXtosuyOZV2SkOtA248fjMAUWjGf8aYBvQK1ZMarbMvFBvkguSt93HhdXh20m15sc4b5EIBxXLHQQ==
   /regenerate/1.4.0:
     dev: true
     resolution:
@@ -9449,19 +9443,19 @@ packages:
     dev: true
     resolution:
       integrity: sha1-hqdj9Y7k18L2sQLkdkBQ3n7ZDGs=
-  /regexpu-core/4.4.0:
+  /regexpu-core/4.5.2:
     dependencies:
       regenerate: 1.4.0
-      regenerate-unicode-properties: 7.0.0
+      regenerate-unicode-properties: 8.0.0
       regjsgen: 0.5.0
       regjsparser: 0.6.0
       unicode-match-property-ecmascript: 1.0.4
-      unicode-match-property-value-ecmascript: 1.0.2
+      unicode-match-property-value-ecmascript: 1.1.0
     dev: true
     engines:
       node: '>=4'
     resolution:
-      integrity: sha512-eDDWElbwwI3K0Lo6CqbQbA6FwgtCz4kYTarrri1okfkRLZAqstU+B3voZBCjg8Fl6iq0gXrJG6MvRgLthfvgOA==
+      integrity: sha512-CgGxXmuX0Cf57z7KahSHe4kaNY8gBRCFFEretQ5AHsnlLx/5VdCrQOoOz1POxLdZjPbwE5ncTspPJwp2WHPcHA==
   /regjsgen/0.2.0:
     dev: true
     resolution:
@@ -10923,24 +10917,24 @@ packages:
   /unicode-match-property-ecmascript/1.0.4:
     dependencies:
       unicode-canonical-property-names-ecmascript: 1.0.4
-      unicode-property-aliases-ecmascript: 1.0.4
+      unicode-property-aliases-ecmascript: 1.0.5
     dev: true
     engines:
       node: '>=4'
     resolution:
       integrity: sha512-L4Qoh15vTfntsn4P1zqnHulG0LdXgjSO035fEpdtp6YxXhMT51Q6vgM5lYdG/5X3MjS+k/Y9Xw4SFCY9IkR0rg==
-  /unicode-match-property-value-ecmascript/1.0.2:
+  /unicode-match-property-value-ecmascript/1.1.0:
     dev: true
     engines:
       node: '>=4'
     resolution:
-      integrity: sha512-Rx7yODZC1L/T8XKo/2kNzVAQaRE88AaMvI1EF/Xnj3GW2wzN6fop9DDWuFAKUVFH7vozkz26DzP0qyWLKLIVPQ==
-  /unicode-property-aliases-ecmascript/1.0.4:
+      integrity: sha512-hDTHvaBk3RmFzvSl0UVrUmC3PuW9wKVnpoUDYH0JDkSIovzw+J5viQmeYHxVSBptubnr7PbH2e0fnpDRQnQl5g==
+  /unicode-property-aliases-ecmascript/1.0.5:
     dev: true
     engines:
       node: '>=4'
     resolution:
-      integrity: sha512-2WSLa6OdYd2ng8oqiGIWnJqyFArvhn+5vgx5GTxMbUYjCYKUcuKS62YLFF0R/BDGlB1yzXjQOLtPAfHsgirEpg==
+      integrity: sha512-L5RAqCfXqAwR3RriF8pM0lU0w4Ryf/GgzONwi6KnL1taJQa7x1TCxdJnILX59WIGOwR57IVxn7Nej0fz1Ny6fw==
   /union-value/1.0.0:
     dependencies:
       arr-union: 3.1.0
@@ -11873,7 +11867,7 @@ specifiers:
   '@vue/cli-service': 3.4.1
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
-  '@vuepress/plugin-active-header-links': 1.0.0-alpha.40
+  '@vuepress/plugin-active-header-links': 1.0.0-alpha.42
   '@vuepress/plugin-nprogress': 1.0.0-alpha.42
   '@vuepress/plugin-search': 1.0.0-alpha.42
   babel-core: 6.26.3
