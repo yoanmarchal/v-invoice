@@ -1,5 +1,5 @@
 dependencies:
-  '@vuepress/plugin-nprogress': 1.0.0-alpha.40
+  '@vuepress/plugin-nprogress': 1.0.0-alpha.42
   bulma: 0.7.2
   vue: 2.6.6
 devDependencies:
@@ -14,7 +14,7 @@ devDependencies:
   babel-core: 6.26.3
   babel-eslint: 10.0.1
   babel-jest: 23.6.0
-  eslint: 5.15.0
+  eslint: 5.15.1
   eslint-plugin-vue: 5.2.2
   node-sass: 4.11.0
   sass-loader: 7.1.0
@@ -944,7 +944,7 @@ packages:
       '@babel/plugin-syntax-jsx': /@babel/plugin-syntax-jsx/7.2.0/@babel!core@7.3.4
       '@vue/babel-helper-vue-jsx-merge-props': 1.0.0-beta.2
       '@vue/babel-plugin-transform-vue-jsx': /@vue/babel-plugin-transform-vue-jsx/1.0.0-beta.2/@babel!core@7.3.4
-      camelcase: 5.0.0
+      camelcase: 5.2.0
       html-tags: 2.0.0
       svg-tags: 1.0.0
     dev: true
@@ -955,7 +955,7 @@ packages:
     dependencies:
       '@babel/plugin-syntax-jsx': /@babel/plugin-syntax-jsx/7.2.0/@babel!core@7.3.4
       '@vue/babel-plugin-transform-vue-jsx': /@vue/babel-plugin-transform-vue-jsx/1.0.0-beta.2/@babel!core@7.3.4
-      camelcase: 5.0.0
+      camelcase: 5.2.0
     dev: true
     id: registry.npmjs.org/@vue/babel-sugar-v-on/1.0.0-beta.2
     resolution:
@@ -995,7 +995,7 @@ packages:
       jest: 23.6.0
       jest-serializer-vue: 2.0.2
       jest-transform-stub: 2.0.0
-      vue-jest: 3.0.3
+      vue-jest: 3.0.4
     dev: true
     resolution:
       integrity: sha512-jrSppcswfMV59zZrZCjpXb9Zdm+cKSl1exZ4vH9/zXVu9G4Q2Qo0wo9YcuROBLLFQORdsDlZpTvhjkQ/E4DZ4A==
@@ -1011,7 +1011,7 @@ packages:
       acorn: 6.1.1
       acorn-walk: 6.1.1
       address: 1.0.3
-      autoprefixer: 9.4.9
+      autoprefixer: 9.4.10
       cache-loader: /cache-loader/2.0.1/webpack@4.28.4
       case-sensitive-paths-webpack-plugin: 2.2.0
       chalk: 2.4.2
@@ -1216,16 +1216,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jHXo7gU174eRcXngBlTnX4jRXk6Z3Id8CZEOJXTKlqdM6XN+DvfWRkqCDSHpqTnjuWzG0r3kp7k4Hq0m4uOW0A==
-  /@vuepress/plugin-nprogress/1.0.0-alpha.40:
-    dependencies:
-      nprogress: 0.2.0
-    dev: false
-    resolution:
-      integrity: sha512-a00rP3u7ygnWn1tiIaGD0qYFlFRYg3117WFkQJiINdNVX4h6B4dsk90/BcnJJJNBmC0mFuNB9qRIiX0A9kAEiw==
   /@vuepress/plugin-nprogress/1.0.0-alpha.42:
     dependencies:
       nprogress: 0.2.0
-    dev: true
     resolution:
       integrity: sha512-C+r99dt2H2EtwGb0W5pmICOvKPhwx+f3O66O/6jJ9DibPkffEGyU3QfboNtOeq2AjQW0AaoSV8Tcop3Y/VUoVA==
   /@vuepress/plugin-register-components/1.0.0-alpha.42:
@@ -1954,7 +1947,7 @@ packages:
   /autoprefixer/6.7.7:
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30000939
+      caniuse-db: 1.0.30000941
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       postcss: 5.2.18
@@ -1965,7 +1958,7 @@ packages:
   /autoprefixer/7.2.6:
     dependencies:
       browserslist: 2.11.3
-      caniuse-lite: 1.0.30000939
+      caniuse-lite: 1.0.30000941
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       postcss: 6.0.23
@@ -1974,10 +1967,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-Iq8TRIB+/9eQ8rbGhcP7ct5cYb/3qjNYAR2SnzLCEcwF6rvVOax8+9+fccgXk4bEhQGjOZd5TLhsksmAdsbGqQ==
-  /autoprefixer/9.4.9:
+  /autoprefixer/9.4.10:
     dependencies:
       browserslist: 4.4.2
-      caniuse-lite: 1.0.30000939
+      caniuse-lite: 1.0.30000941
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       postcss: 7.0.14
@@ -1987,7 +1980,7 @@ packages:
       node: '>=6.0.0'
     hasBin: true
     resolution:
-      integrity: sha512-OyUl7KvbGBoFQbGQu51hMywz1aaVeud/6uX8r1R1DNcqFvqGUUy6+BDHnAZE8s5t5JyEObaSw+O1DpAdjAmLuw==
+      integrity: sha512-XR8XZ09tUrrSzgSlys4+hy5r2/z4Jp7Ag3pHm31U4g/CTccYPOVe19AkaJ4ey/vRd1sfj+5TtuD6I0PXtutjvQ==
   /aws-sign2/0.7.0:
     dev: true
     resolution:
@@ -2455,7 +2448,7 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/1.7.7:
     dependencies:
-      caniuse-db: 1.0.30000939
+      caniuse-db: 1.0.30000941
       electron-to-chromium: 1.3.113
     deprecated: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
     dev: true
@@ -2464,7 +2457,7 @@ packages:
       integrity: sha1-C9dnBCWL6CmyOYu1Dkti0aFmsLk=
   /browserslist/2.11.3:
     dependencies:
-      caniuse-lite: 1.0.30000939
+      caniuse-lite: 1.0.30000941
       electron-to-chromium: 1.3.113
     deprecated: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
     dev: true
@@ -2473,7 +2466,7 @@ packages:
       integrity: sha512-yWu5cXT7Av6mVwzWc8lMsJMHWn4xyjSuGYi4IozbVTLUOEYPSagUB8kiMDUHA1fS3zjr8nkxkn9jdvug4BBRmA==
   /browserslist/4.4.2:
     dependencies:
-      caniuse-lite: 1.0.30000939
+      caniuse-lite: 1.0.30000941
       electron-to-chromium: 1.3.113
       node-releases: 1.1.9
     dev: true
@@ -2690,16 +2683,16 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
-  /camelcase/5.0.0:
+  /camelcase/5.2.0:
     dev: true
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-faqwZqnWxbxn+F1d399ygeamQNy3lPp/H9H6rNrqYh4FSVCtcY+3cub1MxA8o9mDd55mM8Aghuu/kuyYA6VTsA==
+      integrity: sha512-IXFsBS2pC+X0j0N/GE7Dm7j3bsEBp+oTpb7F50dwEVX7rf3IgwO9XatnegTsDtniKCUtEJH4fSU6Asw7uoVLfQ==
   /caniuse-api/1.6.1:
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30000939
+      caniuse-db: 1.0.30000941
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
@@ -2708,20 +2701,20 @@ packages:
   /caniuse-api/3.0.0:
     dependencies:
       browserslist: 4.4.2
-      caniuse-lite: 1.0.30000939
+      caniuse-lite: 1.0.30000941
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
     resolution:
       integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==
-  /caniuse-db/1.0.30000939:
+  /caniuse-db/1.0.30000941:
     dev: true
     resolution:
-      integrity: sha512-nB5tLf3hOs+biXl1lhKjHRgNC0J1I7H52h/t1FP7qxARKKwpB0z+P/JewJLYAlxCBP/q7rxJzQzHHrQMl0viKg==
-  /caniuse-lite/1.0.30000939:
+      integrity: sha512-xgDlJ1rEg4Zb1wqyiDw1Lwd2lIrG5El9vhHwURihFw8+Gk2PcyVh1RWaymOwFx6q49rMgVFqQAvLJmEU9RUUJg==
+  /caniuse-lite/1.0.30000941:
     dev: true
     resolution:
-      integrity: sha512-oXB23ImDJOgQpGjRv1tCtzAvJr4/OvrHi5SO2vUgB0g0xpdZZoA/BxfImiWfdwoYdUTtQrPsXsvYU/dmCSM8gg==
+      integrity: sha512-4vzGb2MfZcO20VMPj1j6nRAixhmtlhkypM4fL4zhgzEucQIYiRzSqPcWIu1OF8i0FETD93FMIPWfUJCAcFvrqA==
   /capture-exit/1.2.0:
     dependencies:
       rsvp: 3.6.2
@@ -4343,7 +4336,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-bT3/1x1EbZB7phzYu7vCr1v3ONuzDtX8WjuM9c0iYxe+cq+pwcKEoQjl7zd3RpC6YOLgnSy3cTN58M2jcoPDIQ==
-  /eslint/5.15.0:
+  /eslint/5.15.1:
     dependencies:
       '@babel/code-frame': 7.0.0
       ajv: 6.10.0
@@ -4386,7 +4379,7 @@ packages:
       node: ^6.14.0 || ^8.10.0 || >=9.10.0
     hasBin: true
     resolution:
-      integrity: sha512-xwG7SS5JLeqkiR3iOmVgtF8Y6xPdtr6AAsN6ph7Q6R/fv+3UlKYoika8SmNzmb35qdRF+RfTY35kMEdtbi+9wg==
+      integrity: sha512-NTcm6vQ+PTgN3UBsALw5BMhgO6i5EpIjQF/Xb5tIh3sk9QhrFafujUOczGz4J24JBlzWclSB9Vmx8d+9Z6bFCg==
   /espree/3.5.4:
     dependencies:
       acorn: 5.7.3
@@ -4891,7 +4884,7 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-Y1GUDo39ez4aHAw7MysnUD5JzYX+WaIj8I57kO3aEPT1fFRL4sr7mjei97FgnwhAyyzRYmQZaTHb2+9uZ1dPtg==
-  /find-babel-config/1.1.0:
+  /find-babel-config/1.2.0:
     dependencies:
       json5: 0.5.1
       path-exists: 3.0.0
@@ -4899,7 +4892,7 @@ packages:
     engines:
       node: '>=4.0.0'
     resolution:
-      integrity: sha1-rMAQQ6Z0n+w0Qpvmtk9ULrtdY1U=
+      integrity: sha512-jB2CHJeqy6a820ssiqwrKMeyC6nNdmrcgkKWJWmpoxpE8RKciYJXCcXRq1h2AzCo5I5BJeN2tkGEO3hLTuePRA==
   /find-cache-dir/0.1.1:
     dependencies:
       commondir: 1.0.1
@@ -11180,12 +11173,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-KmvZVtmM26BQOMK1rwUZsrqxEGeKiYSZGA7SNWE6uExx8UX/cj9hq2MRV/wWC3Cq6AoeDGk57rL9YMFRel/q+g==
-  /vue-jest/3.0.3:
+  /vue-jest/3.0.4:
     dependencies:
       babel-plugin-transform-es2015-modules-commonjs: 6.26.2
       chalk: 2.4.2
       extract-from-css: 0.4.4
-      find-babel-config: 1.1.0
+      find-babel-config: 1.2.0
       js-beautify: 1.9.0
       node-cache: 4.2.0
       object-assign: 4.1.1
@@ -11198,7 +11191,7 @@ packages:
       vue: ^2.x
       vue-template-compiler: ^2.x
     resolution:
-      integrity: sha512-QwFQjkv2vXYPKUkNZkMbV/ZTHyQhRM1JY8nP68dRLQmdvCN+VUEKhlByH/PgPqDr2p/NuhaM3PUjJ9nreR++3w==
+      integrity: sha512-PY9Rwt4OyaVlA+KDJJ0614CbEvNOkffDI9g9moLQC/2DDoo0YrqZm7dHi13Q10uoK5Nt5WCYFdeAheOExPah0w==
   /vue-loader/15.7.0:
     dependencies:
       '@vue/component-compiler-utils': 2.6.0
@@ -11881,13 +11874,13 @@ specifiers:
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
   '@vuepress/plugin-active-header-links': 1.0.0-alpha.40
-  '@vuepress/plugin-nprogress': 1.0.0-alpha.40
+  '@vuepress/plugin-nprogress': 1.0.0-alpha.42
   '@vuepress/plugin-search': 1.0.0-alpha.42
   babel-core: 6.26.3
   babel-eslint: 10.0.1
   babel-jest: 23.6.0
   bulma: 0.7.2
-  eslint: 5.15.0
+  eslint: 5.15.1
   eslint-plugin-vue: 5.2.2
   node-sass: 4.11.0
   sass-loader: 7.1.0
