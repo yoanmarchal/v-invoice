@@ -20,7 +20,7 @@ devDependencies:
   sass-loader: 7.1.0
   vue-loader: 15.7.0
   vue-template-compiler: 2.6.6
-  vuepress: 1.0.0-alpha.42
+  vuepress: 1.0.0-alpha.44
 packages:
   /@babel/code-frame/7.0.0:
     dependencies:
@@ -11289,7 +11289,7 @@ packages:
       webpack: ^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
     resolution:
       integrity: sha512-BebAEl1BmWlro3+VyDhIOCY6Gef2MCBllEVAP3NUAtMguiyOwo/dClbwJ167WYmcxHJKLl7b0Chr9H7fpn1d0A==
-  /vuepress/1.0.0-alpha.42:
+  /vuepress/1.0.0-alpha.44:
     dependencies:
       '@vuepress/core': 1.0.0-alpha.44
       '@vuepress/theme-default': 1.0.0-alpha.44
@@ -11299,7 +11299,7 @@ packages:
       node: '>=8'
     hasBin: true
     resolution:
-      integrity: sha512-zO8N7laeid06xkiOV0a6fqa7Aj821cIrbiJuwoBm1P6EZbIGUO4mRnJB5b/csK+I0GVAELxv8dLR5aifTgHRYA==
+      integrity: sha512-m6tYdmQbqZQ2frqyPa/OwFoRRv+SY0nkv6dai+74+Vy4IAnPmY7/otrlvmWVNpPh6X4pT2HvNh08YetfUnWX7g==
   /w3c-hr-time/1.0.1:
     dependencies:
       browser-process-hrtime: 0.1.3
@@ -11883,4 +11883,4 @@ specifiers:
   vue: 2.6.6
   vue-loader: 15.7.0
   vue-template-compiler: 2.6.6
-  vuepress: 1.0.0-alpha.42
+  vuepress: 1.0.0-alpha.44
