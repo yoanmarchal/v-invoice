@@ -23,7 +23,7 @@
     "@vue/cli-service": "3.5.0",
     "@vue/eslint-config-standard": "4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
-    "@vuepress/plugin-active-header-links": "1.0.0-alpha.42",
+    "@vuepress/plugin-active-header-links": "1.0.0-alpha.44",
     "@vuepress/plugin-search": "1.0.0-alpha.44",
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.1",

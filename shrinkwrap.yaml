@@ -9,7 +9,7 @@ devDependencies:
   '@vue/cli-service': 3.5.0
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
-  '@vuepress/plugin-active-header-links': 1.0.0-alpha.42
+  '@vuepress/plugin-active-header-links': 1.0.0-alpha.44
   '@vuepress/plugin-search': 1.0.0-alpha.44
   babel-core: 6.26.3
   babel-eslint: 10.0.1
@@ -1185,12 +1185,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-wUjLKVlRv1BYDFm/2Q8MazIILag/RX4OguFHiyYwfta7REC4zCMIQhzqA5Aa/xhnX9yJb6L1L44KsbshjAv5OA==
-  /@vuepress/plugin-active-header-links/1.0.0-alpha.42:
-    dependencies:
-      lodash.throttle: 4.1.1
-    dev: true
-    resolution:
-      integrity: sha512-hu5AaXkLvEkuJ23a5o4dR68FRrpI4HtiQbP4tmSeFiu4l3njIMalmbiVGNqvctZ8zlFUK9LLcojpihSVDqnkeQ==
   /@vuepress/plugin-active-header-links/1.0.0-alpha.44:
     dependencies:
       lodash.throttle: 4.1.1
@@ -1234,7 +1228,7 @@ packages:
       gray-matter: 4.0.2
       hash-sum: 1.0.2
       semver: 5.6.0
-      upath: 1.1.1
+      upath: 1.1.2
     dev: true
     resolution:
       integrity: sha512-2dQWfvoJr9JskbHxsvR7WIFi5bqjbl5Uhlo5z1sw2nG7DsVwVTGvavfelijU6oJtAWzmKXaolpMfivHPgzIjWQ==
@@ -2770,7 +2764,7 @@ packages:
       normalize-path: 3.0.0
       path-is-absolute: 1.0.1
       readdirp: 2.2.1
-      upath: 1.1.1
+      upath: 1.1.2
     dev: true
     optionalDependencies:
       fsevents: 1.2.7
@@ -10992,13 +10986,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-g3aHP30jNRef+x5vw6jtDfyKtVk=
-  /upath/1.1.1:
+  /upath/1.1.2:
     dev: true
     engines:
       node: '>=4'
-      yarn: '>=1'
     resolution:
-      integrity: sha512-D0yetkpIOKiZQquxjM2Syvy48Y1DbZ0SWxgsZiwd9GCWRpc75vN8ytzem14WDSg+oiX6+Qt31FpiS/ExODCrLg==
+      integrity: sha512-kXpym8nmDmlCBr7nKdIx8P2jNBa+pBpIUFRnKJ4dr8htyYGJFokkr2ZvERRtUN+9SY+JqXouNgUPtv6JQva/2Q==
   /upper-case/1.1.3:
     dev: true
     resolution:
@@ -11869,7 +11862,7 @@ specifiers:
   '@vue/cli-service': 3.5.0
   '@vue/eslint-config-standard': 4.0.0
   '@vue/test-utils': 1.0.0-beta.29
-  '@vuepress/plugin-active-header-links': 1.0.0-alpha.42
+  '@vuepress/plugin-active-header-links': 1.0.0-alpha.44
   '@vuepress/plugin-nprogress': 1.0.0-alpha.44
   '@vuepress/plugin-search': 1.0.0-alpha.44
   babel-core: 6.26.3
