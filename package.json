@@ -14,7 +14,7 @@
   "dependencies": {
     "@vuepress/plugin-nprogress": "1.0.0-alpha.44",
     "bulma": "0.7.2",
-    "vue": "2.6.6"
+    "vue": "2.6.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.5.1",
