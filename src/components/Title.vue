@@ -1,7 +1,5 @@
 <template>
-  <div class="module__title content has-text-centered">
-      <h1>{{title}}</h1>
-  </div>
+  <h1 class="mb-5">{{title}}</h1>
 </template>
 <script>
 export default {

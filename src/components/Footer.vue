@@ -1,10 +1,7 @@
 <template>
-  <div class="module__entreprise__special">
-    <hr>
-    <small>
-      {{ content }}
-    </small>
-  </div>
+  <p>
+    <small>{{ content }}</small>
+  </p>
 </template>
 <script>
 export default {

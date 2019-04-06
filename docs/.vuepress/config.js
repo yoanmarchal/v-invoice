@@ -3,7 +3,7 @@ module.exports = {
   title: 'v-invoice',
   description: 'Just playing around',
   plugins: [
-    '@vuepress/nprogress',
+    '@vuepress/nprogress'
   ],
   themeConfig: {
     nav: [
@@ -27,14 +27,19 @@ module.exports = {
           'components/component-b',
           'components/invoice',
           'components/from',
-          'components/test',
           'components/to',
           'components/infos'
         ]
       }
     ]
   },
+  postcss: {
+    plugins: [
+      require("tailwindcss")("./tailwind.config.js"),
+      require("autoprefixer")
+    ]
+  },
   markdown: {
     lineNumbers: true
   }
-}
+};
