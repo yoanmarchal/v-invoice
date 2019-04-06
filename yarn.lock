@@ -1089,7 +1089,12 @@
   dependencies:
     "@vuepress/shared-utils" "^1.0.0-alpha.44"
 
-"@vuepress/plugin-search@1.0.0-alpha.44", "@vuepress/plugin-search@^1.0.0-alpha.44":
+"@vuepress/plugin-search@1.0.0-alpha.47":
+  version "1.0.0-alpha.47"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-alpha.47.tgz#4463927edd915ee38fbe08510f4398ff9da43ab0"
+  integrity sha512-Cc0Pckzv4bspfOFecvubazirnZMPbaT4B4KT3KPknrqCfW0Uiv4sSxXEAtzMCB+UF6P7Dlt50SfI/2MO7k58xg==
+
+"@vuepress/plugin-search@^1.0.0-alpha.44":
   version "1.0.0-alpha.44"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-alpha.44.tgz#c5ab7abe591ca025d57886a9ee817e4217504fd8"
   integrity sha512-quRTG2w3EHdmo1ZNB26qcVpH/SJU1aAsKobjm4AyESgRCBQwfYbyHilWzM77gr2p6jnjAOfeV+ZegEDrM67HKA==
