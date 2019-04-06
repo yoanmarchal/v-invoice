@@ -7,6 +7,8 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/yoanmarchal/v-invoice/badge.svg)](https://snyk.io/test/github/yoanmarchal/v-invoice)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyoanmarchal%2Fv-invoice.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyoanmarchal%2Fv-invoice?ref=badge_shield)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c96e0f65-7736-4e5b-abd5-f4c6ae94f7bb/deploy-status)](https://app.netlify.com/sites/v-invoice/deploys)
+
 
 ## Introduction
 
