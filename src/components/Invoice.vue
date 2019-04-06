@@ -1,5 +1,5 @@
 <template>
-  <div class="invoice default module__container container ">
+  <div class="container  mx-auto">
     <V-header :devis='devis'/>
     <To :to='devis.to'/>
     <Title :title='title'/>
@@ -30,27 +30,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-  @import "~bulma";
-  /* Responsive: Portrait tablets and up */
-  @media print and (min-width: 768px) {
-    /* Space out content a bit */
-    .invoice {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      background-color: #323232;
-      background-color: #fff;
-      padding: 0 30px;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: stretch;
-    }
-    .container {
-        max-width: 21cm;
-    }
-  }
-
-</style>

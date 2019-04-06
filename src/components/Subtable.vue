@@ -1,10 +1,10 @@
 <template>
-  <div class="columns module__details">
-    <div class="column is-6 ">
+  <div class="flex mb-5">
+    <div class="flex-1">
       {{ LegalInfos }}
     </div>
-    <div class="column is-4 is-offset-2 result has-text-right">
-      <table class="table">
+    <div class="flex-1">
+      <table class="table w-full text-right">
         <tbody>
           <tr>
             <td>Total</td>
@@ -38,9 +38,3 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
-  .table {
-    display:table;
-    width: 100%;
-  }
-</style>
