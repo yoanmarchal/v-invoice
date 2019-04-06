@@ -12,7 +12,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "vue": "2.6.6"
+    "vue": "2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.5.5",
@@ -31,7 +31,7 @@
     "eslint-plugin-vue": "5.2.2",
     "tailwindcss": "0.7.4",
     "vue-loader": "15.7.0",
-    "vue-template-compiler": "2.6.6",
+    "vue-template-compiler": "2.6.10",
     "vuepress": "1.0.0-alpha.47"
   }
 }
