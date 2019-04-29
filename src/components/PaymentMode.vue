@@ -1,9 +1,9 @@
 <template>
-  <p class="mb-5">Mode de paiement : {{ devis.paymentmode }}</p>
+  <p class="mb-5">Mode de paiement : {{ paymentmode }}</p>
 </template>
 
 <script>
 export default {
-  props: ['devis']
+  props: ['paymentmode']
 }
 </script>

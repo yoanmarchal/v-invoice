@@ -1,5 +1,5 @@
 <template>
-  <Infos :infos='devis'/>
+  <Header :devis='devis'/>
 </template>
 
 <script>

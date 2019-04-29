@@ -1,21 +1,17 @@
-# Component A
+# Table-products
 
 ## Example
 
-The following example is a tag `<component-a/>` written directly in the markdown file.
-
-<component-a/>
-
-The code snippet can be written directly in markdown too. This could be useful especially when you only want to show a portion of the demo codes.
+<table-products-demo/>
 
 ``` js
-<component-a/>
+<TableProducts :products="devis.products"/>
 ```
 
 ## Props
 Name | Type   | Description | Default
 ---- | :----: | ----------- | -----
-prop |        |             | 
+products |        |             | 
 
 ## Slots
 Name     | Slot props       | Description
