@@ -1213,7 +1213,7 @@
   dependencies:
     nprogress "^0.2.0"
 
-"@vuepress/plugin-pwa@^1.0.0-alpha.47":
+"@vuepress/plugin-pwa@1.0.0-alpha.47":
   version "1.0.0-alpha.47"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-pwa/-/plugin-pwa-1.0.0-alpha.47.tgz#6365e5cfda6f527ccc66f723d55ef3c2c3e34321"
   integrity sha512-BI0xVWEAEWt4CsYndqh38m5biROb6TTUVS0ubuO5a5cfPdltLI/X/h8jOpAZO5RJKsUGHGJvDCWrlkT5Bamnww==
