@@ -1,5 +1,5 @@
 <template>
-  <Infos :infos='devis'/>
+  <Title :title="config.title"/>
 </template>
 
 <script>

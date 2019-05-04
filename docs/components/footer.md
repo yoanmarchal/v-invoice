@@ -1,14 +1,14 @@
-# To
+# Footers
 
 ## Example
 
-<to-demo/>
+<footer-demo/>
 
 ``` js
-<to :to="devis.to"/>
+<footer :content="content"/>
 ```
 
 ## Props
 Name | Type   | Description | Default
 ---- | :----: | ----------- | -----
-to   |        |             | 
+content |        |             |

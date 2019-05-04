@@ -1,5 +1,5 @@
 <template>
-  <Infos :infos='devis'/>
+  <Footer :content="config.footerContent"/>
 </template>
 
 <script>

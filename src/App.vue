@@ -3,12 +3,10 @@
 </template>
 
 <script>
-import Invoice from './components/Invoice.vue'
-
 export default {
   name: 'App',
   components: {
-    Invoice
+    'Invoice': () => import('./Invoice')
   },
   data () {
     return {

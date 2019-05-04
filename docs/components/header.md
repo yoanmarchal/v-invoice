@@ -1,14 +1,14 @@
-# To
+# Header
 
 ## Example
 
-<to-demo/>
+<header-demo/>
 
 ``` js
-<to :to="devis.to"/>
+<header :devis="devis"/>
 ```
 
 ## Props
 Name | Type   | Description | Default
 ---- | :----: | ----------- | -----
-to   |        |             | 
+devis |        |             |

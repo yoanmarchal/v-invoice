@@ -1,5 +1,5 @@
 <template>
-  <Infos :infos='devis'/>
+  <TableProducts :products="devis.products"/>
 </template>
 
 <script>

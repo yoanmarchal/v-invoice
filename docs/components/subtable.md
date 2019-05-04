@@ -1,17 +1,18 @@
-# Infos
+# Subtable
 
 ## Example
 
-<infos-demo/>
+<sub-table-demo/>
 
 ``` js
-<Infos :infos='devis'/>
+<SubTable :devis='devis' :LegalInfos='config.LegalInfos'/>
 ```
 
 ## Props
 Name | Type   | Description | Default
 ---- | :----: | ----------- | -----
-infos |        |             |
+devis |        |             |
+LegalInfos |        |             |
 
 ## Slots
 Name     | Slot props       | Description

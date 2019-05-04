@@ -3,7 +3,9 @@ module.exports = {
   title: 'v-invoice',
   description: 'Just playing around',
   plugins: [
-    '@vuepress/nprogress'
+    '@vuepress/nprogress',
+    '@vuepress/plugin-active-header-links',
+    '@vuepress/plugin-search'
   ],
   themeConfig: {
     nav: [
@@ -23,12 +25,16 @@ module.exports = {
         title: 'Components',
         collapsable: false,
         children: [
-          'components/component-a',
-          'components/component-b',
           'components/invoice',
+          'components/header',
           'components/from',
           'components/to',
-          'components/infos'
+          'components/infos',
+          'components/title',
+          'components/payment-mode',
+          'components/table-products',
+          'components/subtable',
+          'components/footer'
         ]
       }
     ]

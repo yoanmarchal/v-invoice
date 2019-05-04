@@ -2,14 +2,10 @@
 
 ## Example
 
-The following example is using a demo component `.vuepress/component/Fromdemo.vue`. 
-
 <from-demo/>
 
-The code snippet can be written directly in markdown too. This could be useful especially when you only want to show a portion of the demo codes.
-
 ``` js
-<from/>
+<from :from="devis.from"/>
 ```
 
 ## Props
