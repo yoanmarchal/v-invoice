@@ -8,15 +8,15 @@
         <tbody>
           <tr>
             <td>Total</td>
-            <td>{{ total | currency('€', 0, { symbolOnLeft: false })  }}</td>
+            <td>{{ total | currency  }}</td>
           </tr>
           <tr>
             <td>Déjà réglé</td>
-            <td>{{ devis.alreadypaid | currency('€', 0, { symbolOnLeft: false }) }}</td>
+            <td>{{ devis.alreadypaid | currency }}</td>
           </tr>
           <tr>
             <td>Net à payer</td>
-            <td>{{ toPay | currency('€', 0, { symbolOnLeft: false }) }}</td>
+            <td>{{ toPay | currency }}</td>
           </tr>
         </tbody>
       </table>
