@@ -6,7 +6,7 @@ import Infos from './Infos.vue'
 import Title from './Title.vue'
 import PaymentMode from './PaymentMode.vue'
 import TableProducts from './TableProducts.vue'
-import SubTable from './SubTable.vue'
+import TotalTable from './TotalTable.vue'
 import Footer from './Footer.vue'
 
 export {
@@ -18,6 +18,6 @@ export {
   Title,
   PaymentMode,
   TableProducts,
-  SubTable,
+  TotalTable,
   Footer
 }
