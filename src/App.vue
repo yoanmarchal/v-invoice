@@ -6,7 +6,7 @@
 export default {
   name: 'App',
   components: {
-    'Invoice': () => import('./Invoice')
+    'Invoice': () => import('./components/Invoice.vue')
   },
   data () {
     return {

@@ -1,2 +1,0 @@
-(("undefined"!==typeof self?self:this)["webpackJsonpv_invoice"]=("undefined"!==typeof self?self:this)["webpackJsonpv_invoice"]||[]).push([[3],{"691e":function(e,s,n){"use strict";n.r(s);var t=function(){var e=this,s=e.$createElement,n=e._self._c||s;return n("p",{staticClass:"mb-5"},[e._v("Mode de paiement : "+e._s(e.devis.paymentmode))])},i=[],l={props:["devis"]},p=l,f=n("2877"),o=Object(f["a"])(p,t,i,!1,null,null,null);s["default"]=o.exports}}]);
-//# sourceMappingURL=v-invoice.umd.min.3.js.map
