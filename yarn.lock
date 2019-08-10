@@ -1046,7 +1046,7 @@
     jest-watch-typeahead "0.2.1"
     vue-jest "^3.0.4"
 
-"@vue/cli-service@^3.10.0":
+"@vue/cli-service@3.10.0":
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-3.10.0.tgz#1e61afac9eeed5d902c124715c29719abeb743c5"
   integrity sha512-aQaAjtkpSl4XFBM7Di9doh4GvHp1H8/H1QJKRK8bPJ5MVbt8Lt4tBo+YgK9Qs/9x0mrxCAa5UrR9+8ZWIQs2Zw==
@@ -2162,7 +2162,7 @@ babel-jest@^23.6.0:
     babel-plugin-istanbul "^4.1.6"
     babel-preset-jest "^23.2.0"
 
-babel-loader@^8.0.4, babel-loader@^8.0.5, babel-loader@^8.0.6:
+babel-loader@8.0.6, babel-loader@^8.0.4, babel-loader@^8.0.5:
   version "8.0.6"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.6.tgz#e33bdb6f362b03f4bb141a0c21ab87c501b70dfb"
   integrity sha512-4BmWKtBOBm13uoUwd08UwjZlaw3O9GWf456R9j+5YykFZ6LUIjIKLc0zEZf+hauxPOJs96C8k6FvYD09vWzhYw==
