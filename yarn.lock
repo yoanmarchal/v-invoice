@@ -1301,10 +1301,10 @@
   dependencies:
     "@vuepress/shared-utils" "^1.0.3"
 
-"@vuepress/plugin-search@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.2.tgz#6d43fb46b207d48b797a5bc5b01824662db4684d"
-  integrity sha512-LCFZLp+adppdHETIEARwQhczj+mdpa+D25qL9RNmYxzU9mF6qItYNLl57P6omGU2Vr8frAc+rWgjbi4cjkbCvQ==
+"@vuepress/plugin-search@^1.0.0-rc.1":
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.0.0-rc.1.tgz#819df40e70d8f20c31ecc1baef5a73ffc84ab0cb"
+  integrity sha512-SWKU5+4VKXgwb0JGt+Y4GNMGNQdTA/9QmUX4f6OmnXvQic1xnYJPPFz2Isns+D18bwkvs7Xl8ijUxQvhGul+EQ==
 
 "@vuepress/plugin-search@^1.0.3":
   version "1.0.3"
