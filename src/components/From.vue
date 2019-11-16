@@ -1,6 +1,6 @@
 <template>
   <div class="flex-1">
-    <img :src="from.logo" class="img-fluid" alt="">
+    <img :src="from.logo" v-if="from.logo !== null" class="img-fluid" alt="">
     <p><strong>{{ from.title }}</strong></p>
     <address>
       <p>{{ from.road }}</p>
