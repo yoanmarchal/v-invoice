@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "vue-cli-service serve --watch",
     "ui": "vue ui",
-    "build": "vue-cli-service build --target wc --inline-vue --name v-invoice ./src/index.js",
+    "build": "vue-cli-service build --target lib --name v-invoice ./src/index.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "docs:dev": "vuepress dev docs",

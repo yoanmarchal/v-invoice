@@ -1,4 +1,4 @@
-(window["vInvoice_jsonp"] = window["vInvoice_jsonp"] || []).push([[1],{
+((typeof self !== 'undefined' ? self : this)["webpackJsonpv_invoice"] = (typeof self !== 'undefined' ? self : this)["webpackJsonpv_invoice"] || []).push([[1],{
 
 /***/ "ae6e":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -83,4 +83,4 @@ var component = Object(componentNormalizer["a" /* default */])(
 /***/ })
 
 }]);
-//# sourceMappingURL=v-invoice.1.js.map
+//# sourceMappingURL=v-invoice.umd.1.js.map
