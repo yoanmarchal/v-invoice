@@ -25,10 +25,10 @@
 </template>
 <script>
 export default {
-  props: ['devis', 'LegalInfos'],
+  props: ['devis', 'LegalInfos', 'products'],
   computed: {
     total () {
-      return this.devis.products.map((product) => {
+      return this.products.map((product) => {
         return (product.price * product.quantity)
       }).reduce((sum, elem) => sum + elem)
     },

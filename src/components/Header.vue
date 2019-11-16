@@ -1,7 +1,7 @@
 <template>
   <div class="flex mb-5 py-2">
     <From :from='devis.from'/>
-    <Infos :infos='devis'/>
+    <Infos :devis='devis'/>
   </div>
 </template>
 <script>

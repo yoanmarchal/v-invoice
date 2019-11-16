@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{4:function(t,n,e){"use strict";e.r(n);var s=function(){var t=this.$createElement,n=this._self._c||t;return n("p",[n("small",[this._v(this._s(this.content))])])};s._withStripped=!0;var o={props:["content"]},i=e(0),p=Object(i.a)(o,s,[],!1,null,null,null);p.options.__file="src/components/Footer.vue";n.default=p.exports}}]);

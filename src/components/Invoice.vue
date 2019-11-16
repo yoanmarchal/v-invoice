@@ -1,11 +1,11 @@
 <template>
   <div class="container  mx-auto">
     <Header :devis='devis'/>
-    <To :to='devis.to'/>
+    <To :devis='devis'/>
     <Title :title='title'/>
     <PaymentMode :paymentmode='config.title' />
-    <TableProducts :products="devis.products"/>
-    <SubTable :devis='devis' :LegalInfos='config.LegalInfos'/>
+    <TableProducts :products="products"/>
+    <SubTable :devis='devis' :products="products" :LegalInfos='config.LegalInfos'/>
     <Footer :content="config.footerContent"/>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
     'TableProducts': () => import('./TableProducts.vue'),
     'SubTable': () => import('./Subtable.vue')
   },
-  props: ['devis', 'config'],
+  props: ['devis', 'config', 'products'],
   computed: {
     title () {
       return this.config.title

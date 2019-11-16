@@ -2,10 +2,11 @@
   "name": "v-invoice",
   "version": "0.2.0",
   "private": true,
+  "main": "./dist/v-invoice.common.js",
   "scripts": {
     "serve": "vue-cli-service serve --watch",
     "ui": "vue ui",
-    "build": "vue-cli-service build --target lib --name v-invoice ./src/index.js",
+    "build": "vue-cli-service build --target wc --inline-vue --name v-invoice ./src/index.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "docs:dev": "vuepress dev docs",
@@ -35,5 +36,12 @@
     "vue-loader": "15.7.2",
     "vue-template-compiler": "2.6.10",
     "vuepress": "1.2.0"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/bundlers/vue@2.6.15"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }

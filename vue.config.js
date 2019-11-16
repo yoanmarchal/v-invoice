@@ -4,5 +4,5 @@ module.exports = {
   runtimeCompiler: true,
   productionSourceMap: undefined,
   parallel: undefined,
-  css: undefined
+  css: { extract: false }
 }

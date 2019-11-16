@@ -1,5 +1,5 @@
 <template>
-  <Invoice :devis='devis' :config='config'/>
+  <Invoice :devis='devis' :config='config' :products="devis['invoice-item']"/>
 </template>
 
 <script>
@@ -26,7 +26,7 @@ export default {
           'siret': '55280020150048',
           'logo': 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=='
         },
-        to: {
+        client: {
           'id': 0,
           'first_name': 'Valentin',
           'last_name': 'Dubois',
@@ -41,7 +41,7 @@ export default {
         },
         id: 1,
         date: '2017-10-01T15:17:30.865Z',
-        products: [
+        'invoice-item': [
           {
             'id': 1,
             'title': 'Unbranded Granite Bacon',

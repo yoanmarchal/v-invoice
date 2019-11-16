@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{6:function(t,s,e){"use strict";e.r(s);var i=function(){var t=this.$createElement;return(this._self._c||t)("h1",{staticClass:"mb-5"},[this._v(this._s(this.title))])};i._withStripped=!0;var n={props:["title"]},l=e(0),o=Object(l.a)(n,i,[],!1,null,null,null);o.options.__file="src/components/Title.vue";s.default=o.exports}}]);
