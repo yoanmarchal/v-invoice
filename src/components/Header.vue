@@ -1,12 +1,12 @@
 <template>
   <div class="flex mb-5 py-2">
-    <From :from='devis.from'/>
+    <From :from='from'/>
     <Infos :devis='devis'/>
   </div>
 </template>
 <script>
 export default {
-  props: ['devis'],
+  props: ['devis', 'from'],
   components: {
     From: () => import('./From.vue'),
     Infos: () => import('./Infos.vue')
