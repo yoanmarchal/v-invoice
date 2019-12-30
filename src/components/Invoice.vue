@@ -1,7 +1,7 @@
 <template>
   <div class="container  mx-auto">
-    <Header :devis='devis' :from='from'/>
-    <To :devis='devis'/>
+    <Header :devis='devis' :from='from' :to='to'/>
+    <To :to='to'/>
     <Title :title='title'/>
     <PaymentMode :paymentmode='config.title' />
     <TableProducts :products="products"/>
@@ -22,7 +22,7 @@ export default {
     'TableProducts': () => import('./TableProducts.vue'),
     'SubTable': () => import('./Subtable.vue')
   },
-  props: ['devis', 'config', 'products', 'from'],
+  props: ['devis', 'config', 'products', 'from', 'to'],
   computed: {
     title () {
       return this.config.title

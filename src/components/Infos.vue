@@ -12,12 +12,13 @@
     <p>
       <span>Code Client: </span>
       <span>CL</span>
-      <span>{{devis.client.id}}</span></p>
+      <span>{{to.id}}</span>
+    </p>
   </div>
 </template>
 <script>
 export default {
-  name: 'infos',
-  props: ['devis']
+  name: 'Invoice__header__infos',
+  props: ['devis', 'to']
 }
 </script>

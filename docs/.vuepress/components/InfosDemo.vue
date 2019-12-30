@@ -1,5 +1,5 @@
 <template>
-  <Infos :infos='devis'/>
+  <Infos :devis='devis' :to='devis.to' :from='devis.from'/>
 </template>
 
 <script>

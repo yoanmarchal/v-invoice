@@ -1,5 +1,5 @@
 <template>
-  <Invoice :devis="devis" :config="config"/>
+  <Invoice :devis='devis' :from='devis.from' :to='devis.to' :config='config' :products="devis['invoice-item']"/>
 </template>
 
 <script>

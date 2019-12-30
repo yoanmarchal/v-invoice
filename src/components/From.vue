@@ -12,6 +12,7 @@
 </template>
 <script>
 export default {
+  name: 'invoice__header__from',
   props: ['from']
 }
 </script>

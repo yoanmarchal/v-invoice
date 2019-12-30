@@ -1,5 +1,5 @@
 <template>
-  <Header :devis='devis'/>
+  <Header :devis='devis' :from='devis.from' :to='devis.to'/>
 </template>
 
 <script>

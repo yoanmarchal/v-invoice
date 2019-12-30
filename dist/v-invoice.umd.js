@@ -217,12 +217,12 @@ return /******/ (function(modules) { // webpackBootstrap
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"48c4c585-vue-loader-template"}!./node_modules/@vue/cli-service/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Header.vue?vue&type=template&id=3befadec&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex mb-5 py-2"},[_c('From',{attrs:{"from":_vm.devis.from}}),_c('Infos',{attrs:{"devis":_vm.devis}})],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"48c4c585-vue-loader-template"}!./node_modules/@vue/cli-service/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Header.vue?vue&type=template&id=37e2f4b1&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex mb-5 py-2"},[_c('From',{attrs:{"from":_vm.from}}),_c('Infos',{attrs:{"devis":_vm.devis}})],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Header.vue?vue&type=template&id=3befadec&
+// CONCATENATED MODULE: ./src/components/Header.vue?vue&type=template&id=37e2f4b1&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Header.vue?vue&type=script&lang=js&
 //
@@ -232,7 +232,7 @@ var staticRenderFns = []
 //
 //
 /* harmony default export */ var Headervue_type_script_lang_js_ = ({
-  props: ['devis'],
+  props: ['devis', 'from'],
   components: {
     From: function From() {
       return Promise.resolve(/* import() */).then(__webpack_require__.bind(null, "2978"));
@@ -543,7 +543,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   null,
   null,
   null
-  ,true
+  
 )
 
 /* harmony default export */ var To = __webpack_exports__["default"] = (component.exports);
@@ -592,7 +592,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   null,
   null,
   null
-  ,true
+  
 )
 
 /* harmony default export */ var Title = __webpack_exports__["default"] = (component.exports);
@@ -659,7 +659,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   null,
   null,
   null
-  ,true
+  
 )
 
 /* harmony default export */ var TableProducts = __webpack_exports__["default"] = (component.exports);
@@ -708,7 +708,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   null,
   null,
   null
-  ,true
+  
 )
 
 /* harmony default export */ var PaymentMode = __webpack_exports__["default"] = (component.exports);
@@ -796,12 +796,12 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./src/components/Header.vue + 4 modules
 var Header = __webpack_require__("0418");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"48c4c585-vue-loader-template"}!./node_modules/@vue/cli-service/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Invoice.vue?vue&type=template&id=0fe7944c&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container  mx-auto"},[_c('Header',{attrs:{"devis":_vm.devis}}),_c('To',{attrs:{"devis":_vm.devis}}),_c('Title',{attrs:{"title":_vm.title}}),_c('PaymentMode',{attrs:{"paymentmode":_vm.config.title}}),_c('TableProducts',{attrs:{"products":_vm.products}}),_c('SubTable',{attrs:{"devis":_vm.devis,"products":_vm.products,"LegalInfos":_vm.config.LegalInfos}}),_c('Footer',{attrs:{"content":_vm.config.footerContent}})],1)}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"48c4c585-vue-loader-template"}!./node_modules/@vue/cli-service/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Invoice.vue?vue&type=template&id=b7e8566e&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container  mx-auto"},[_c('Header',{attrs:{"devis":_vm.devis,"from":_vm.from}}),_c('To',{attrs:{"devis":_vm.devis}}),_c('Title',{attrs:{"title":_vm.title}}),_c('PaymentMode',{attrs:{"paymentmode":_vm.config.title}}),_c('TableProducts',{attrs:{"products":_vm.products}}),_c('SubTable',{attrs:{"devis":_vm.devis,"products":_vm.products,"LegalInfos":_vm.config.LegalInfos}}),_c('Footer',{attrs:{"content":_vm.config.footerContent}})],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/Invoice.vue?vue&type=template&id=0fe7944c&
+// CONCATENATED MODULE: ./src/components/Invoice.vue?vue&type=template&id=b7e8566e&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Invoice.vue?vue&type=script&lang=js&
 //
@@ -841,7 +841,7 @@ var staticRenderFns = []
       return __webpack_require__.e(/* import() */ 1).then(__webpack_require__.bind(null, "ae6e"));
     }
   },
-  props: ['devis', 'config', 'products'],
+  props: ['devis', 'config', 'products', 'from'],
   computed: {
     title: function title() {
       return this.config.title;
@@ -957,7 +957,7 @@ var TotalTable_component = Object(componentNormalizer["a" /* default */])(
   null,
   null,
   null
-  ,true
+  
 )
 
 /* harmony default export */ var TotalTable = (TotalTable_component.exports);
@@ -1059,7 +1059,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   null,
   null,
   null
-  ,true
+  
 )
 
 /* harmony default export */ var Footer = __webpack_exports__["default"] = (component.exports);

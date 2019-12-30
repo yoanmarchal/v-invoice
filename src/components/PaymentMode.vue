@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'invoice__paymentmode',
   props: ['paymentmode']
 }
 </script>

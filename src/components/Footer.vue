@@ -5,6 +5,7 @@
 </template>
 <script>
 export default {
+  name: 'invoice__footer',
   props: ['content']
 }
 </script>

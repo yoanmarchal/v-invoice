@@ -1,18 +1,18 @@
 <template>
   <div class="flex justify-end mb-5">
     <div>
-      <strong>{{devis.client.title}}</strong>
+      <strong>{{to.title}}</strong>
       <address>
-          <p>{{devis.client.road}}</p>
-          <span>{{devis.client.postalcode}}</span>
-          <span>{{devis.client.city}}</span>
+          <p>{{to.road}}</p>
+          <span>{{to.postalcode}}</span>
+          <span>{{to.city}}</span>
       </address>
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: 'to',
-  props: ['devis']
+  name: 'invoice__to',
+  props: ['to']
 }
 </script>

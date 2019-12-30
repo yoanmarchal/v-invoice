@@ -1,5 +1,5 @@
 <template>
-  <SubTable :devis='devis' :LegalInfos='config.LegalInfos'/>
+  <SubTable :devis='devis' :products="devis.products" :LegalInfos='config.LegalInfos'/>
 </template>
 
 <script>

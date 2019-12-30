@@ -25,6 +25,7 @@
 </template>
 <script>
 export default {
+  name: 'Invoice__subtable',
   props: ['devis', 'LegalInfos', 'products'],
   computed: {
     total () {
