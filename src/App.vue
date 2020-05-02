@@ -8,7 +8,7 @@ import data from '../tests/data/data'
 export default {
   name: 'App',
   components: {
-    'Invoice': () => import('./components/Invoice.vue')
+    Invoice: () => import('./components/Invoice.vue')
   },
   data () {
     return {

@@ -3,9 +3,9 @@
     <div>
       <strong>{{to.title}}</strong>
       <address>
-          <p>{{to.road}}</p>
-          <span>{{to.postalcode}}</span>
-          <span>{{to.city}}</span>
+        <p>{{to.road}}</p>
+        <span>{{to.postalcode}}</span>
+        <span>{{to.city}}</span>
       </address>
     </div>
   </div>

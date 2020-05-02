@@ -6,7 +6,7 @@
 </template>
 <script>
 export default {
-  name: 'Invoice-header',
+  name: 'Invoice__header',
   props: ['devis', 'from', 'to'],
   components: {
     From: () => import('./From.vue'),
