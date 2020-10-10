@@ -1,6 +1,6 @@
-import * as mylib from '../../src'
-import DateFilter from '../../src/filters/date'
-import CurrencyFilter from '../../src/filters/euro'
+import * as mylib from '../../../src'
+import DateFilter from '../../../src/filters/date'
+import CurrencyFilter from '../../../src/filters/euro'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app

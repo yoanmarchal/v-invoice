@@ -8,9 +8,7 @@
     "ui": "vue ui",
     "build": "vue-cli-service build --target lib --name v-invoice ./src/index.js",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "vue": "2.6.11"
@@ -22,10 +20,6 @@
     "@vue/cli-service": "4.3.1",
     "@vue/eslint-config-standard": "5.1.2",
     "@vue/test-utils": "1.0.0-beta.33",
-    "@vuepress/plugin-active-header-links": "1.4.1",
-    "@vuepress/plugin-nprogress": "1.4.1",
-    "@vuepress/plugin-pwa": "1.4.1",
-    "@vuepress/plugin-search": "1.4.1",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
     "babel-jest": "25.5.1",
@@ -36,10 +30,10 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-vue": "6.2.2",
+    "lerna": "^3.22.1",
     "tailwindcss": "1.4.4",
     "vue-loader": "15.9.2",
-    "vue-template-compiler": "2.6.11",
-    "vuepress": "1.4.1"
+    "vue-template-compiler": "2.6.11"
   },
   "bit": {
     "env": {
