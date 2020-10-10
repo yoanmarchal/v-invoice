@@ -1,3 +1,6 @@
 node_modules
 docs/.vuepress/dist
 .vscode/tasks.json
+
+# Local Netlify folder
+.netlify
