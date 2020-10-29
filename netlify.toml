@@ -1,4 +1,4 @@
 [build]
   base = "documentation"
   command = "npm run docs:build"
-  publish = "documentation/docs/.vuepress/dist"
+  publish = "docs/.vuepress/dist"
