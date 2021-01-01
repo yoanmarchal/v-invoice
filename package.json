@@ -31,7 +31,7 @@
     "eslint-plugin-standard": "4.1.0",
     "eslint-plugin-vue": "7.2.0",
     "lerna": "3.22.1",
-    "tailwindcss": "1.8.13",
+    "tailwindcss": "2.0.2",
     "vue-loader": "15.9.5",
     "vue-template-compiler": "2.6.12"
   },
