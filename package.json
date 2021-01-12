@@ -2,44 +2,5 @@
   "name": "v-invoice",
   "version": "0.2.0",
   "private": true,
-  "main": "./dist/v-invoice.common.js",
-  "scripts": {
-    "serve": "vue-cli-service serve --watch",
-    "ui": "vue ui",
-    "build": "vue-cli-service build --target lib --name v-invoice ./src/index.js",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
-  },
-  "dependencies": {
-    "vue": "2.6.12"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "4.5.9",
-    "@vue/cli-plugin-eslint": "4.5.9",
-    "@vue/cli-plugin-unit-jest": "4.5.9",
-    "@vue/cli-service": "4.5.9",
-    "@vue/eslint-config-standard": "5.1.2",
-    "@vue/test-utils": "1.1.1",
-    "babel-core": "6.26.3",
-    "babel-eslint": "10.1.0",
-    "babel-jest": "26.6.3",
-    "babel-loader": "8.1.0",
-    "eslint": "7.14.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.1.0",
-    "eslint-plugin-vue": "7.2.0",
-    "lerna": "3.22.1",
-    "tailwindcss": "1.8.13",
-    "vue-loader": "15.9.5",
-    "vue-template-compiler": "2.6.12"
-  },
-  "bit": {
-    "env": {
-      "compiler": "bit.envs/bundlers/vue@2.6.15"
-    },
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
-  }
+  "main": "./lib/dist/v-invoice.common.js"
 }

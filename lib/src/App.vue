@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import data from '../tests/data/data'
+import data from './../tests/data/data'
 
 export default {
   name: 'App',

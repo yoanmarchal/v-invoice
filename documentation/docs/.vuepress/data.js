@@ -1,4 +1,4 @@
-import data from '../../../tests/data/data'
+import data from '../../../lib/tests/data/data'
 
 export default {
   ...data
