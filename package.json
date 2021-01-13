@@ -5,7 +5,6 @@
   "main": "./lib/dist/v-invoice.common.js",
   "scripts": {
     "build:documentation": "npm --prefix documentation run docs:build",
-    "build:lib": "npm --prefix lib run build",
-    "build": "npm run build:lib & npm run build:documentation"
+    "build:lib": "npm --prefix lib run build"
   }
 }
