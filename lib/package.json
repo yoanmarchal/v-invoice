@@ -13,12 +13,12 @@
     "vue": "2.6.12"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "4.5.9",
-    "@vue/cli-plugin-eslint": "4.5.9",
-    "@vue/cli-plugin-unit-jest": "4.5.9",
-    "@vue/cli-service": "4.5.9",
+    "@vue/cli-plugin-babel": "4.5.10",
+    "@vue/cli-plugin-eslint": "4.5.10",
+    "@vue/cli-plugin-unit-jest": "4.5.10",
+    "@vue/cli-service": "4.5.10",
     "@vue/eslint-config-standard": "5.1.2",
-    "@vue/test-utils": "1.1.1",
+    "@vue/test-utils": "1.1.2",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
     "babel-jest": "26.6.3",
@@ -31,7 +31,7 @@
     "eslint-plugin-vue": "7.2.0",
     "lerna": "3.22.1",
     "tailwindcss": "1.8.13",
-    "vue-loader": "15.9.5",
+    "vue-loader": "15.9.6",
     "vue-template-compiler": "2.6.12"
   },
   "bit": {
