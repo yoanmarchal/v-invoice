@@ -1,5 +1,4 @@
 [build]
-  ignore = "git diff --quiet HEAD^ HEAD lib/"
-  base = "documentation"
-  command = "npm run docs:build"
+  base = "/"
+  command = "npm run build"
   publish = "docs/.vuepress/dist"
