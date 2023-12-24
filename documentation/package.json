@@ -8,14 +8,14 @@
   },
   "dependencies": {
     "tailwindcss": "1.9.6",
-    "vue": "2.6.12"
+    "vue": "2.7.16"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "1.8.2",
     "@vuepress/plugin-nprogress": "1.8.2",
     "@vuepress/plugin-pwa": "1.8.2",
     "@vuepress/plugin-search": "1.8.2",
-    "vue-template-compiler": "2.6.12",
+    "vue-template-compiler": "2.7.16",
     "vuepress": "1.8.2"
   }
 }
