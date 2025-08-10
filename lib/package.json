@@ -10,7 +10,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "vue": "2.6.12"
+    "vue": "2.7.16"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.13",
@@ -32,7 +32,7 @@
     "lerna": "4.0.0",
     "tailwindcss": "1.9.6",
     "vue-loader": "16.3.0",
-    "vue-template-compiler": "2.6.12"
+    "vue-template-compiler": "2.7.16"
   },
   "bit": {
     "env": {
