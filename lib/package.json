@@ -18,11 +18,11 @@
     "test:unit": "vitest"
   },
   "dependencies": {
-    "vue": "^3.5.0"
+    "vue": "^3.5.11"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
-    "@vitest/ui": "^4.0.15",
+    "@vitest/ui": "^1.6.1",
     "@vue/eslint-config-standard": "^8.0.1",
     "@vue/test-utils": "^2.4.6",
     "autoprefixer": "^10.4.22",
@@ -35,9 +35,9 @@
     "eslint-plugin-vue": "^9.21.1",
     "jsdom": "^27.3.0",
     "lerna": "9.0.3",
-    "postcss": "^8.5.6",
-    "tailwindcss": "3.4.1",
-    "vite": "^5.4.2",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.10",
     "vitest": "^1.6.1"
   },
   "bit": {
