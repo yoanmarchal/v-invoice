@@ -14,8 +14,8 @@
 export default {
   name: 'Invoice',
   components: {
-    Header: () => import('./Header'),
-    Footer: () => import('./Footer'),
+    Header: () => import('./Header.vue'),
+    Footer: () => import('./Footer.vue'),
     To: () => import('./To.vue'),
     Title: () => import('./Title.vue'),
     PaymentMode: () => import('./PaymentMode.vue'),

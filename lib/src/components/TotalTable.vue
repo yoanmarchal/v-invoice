@@ -8,15 +8,15 @@
         <tbody>
           <tr>
             <td>Total</td>
-            <td>{{ total | currency  }}</td>
+            <td>{{ filters.currency(total) }}</td>
           </tr>
           <tr>
             <td>Déjà réglé</td>
-            <td>{{ devis.alreadypaid | currency }}</td>
+            <td>{{ filters.currency(devis.alreadypaid) }}</td>
           </tr>
           <tr>
             <td>Net à payer</td>
-            <td>{{ toPay | currency }}</td>
+            <td>{{ filters.currency(toPay) }}</td>
           </tr>
         </tbody>
       </table>
@@ -24,8 +24,14 @@
   </div>
 </template>
 <script>
+import { useFilters } from '../composables/useFilters'
+
 export default {
   props: ['devis', 'LegalInfos'],
+  setup() {
+    const filters = useFilters()
+    return { filters }
+  },
   computed: {
     total () {
       return this.devis.products.map((product) => {

@@ -12,17 +12,29 @@
 
 ## Introduction
 
-Install *v-invoice*:
+Install *v-invoice* (Vue 3 + Vite ready):
 
 ```bash
-# Npm
-npm i --save yoanmarchal/v-invoice
-npm i --save vue2-filters
-# Yarn
-yarn add yoanmarchal/v-invoice vue2-filters
+# npm
+npm i yoanmarchal/v-invoice
+
+# yarn
+yarn add yoanmarchal/v-invoice
 ```
 
-Then use the component in an Vuejs project:
+Then register the plugin in a Vue 3 project:
+
+```js
+import { createApp } from 'vue'
+import App from './App.vue'
+import VInvoice from 'v-invoice'
+
+const app = createApp(App)
+app.use(VInvoice)
+app.mount('#app')
+```
+
+Use the component:
 
 <p>
 <details><summary>Using the component</summary><br>

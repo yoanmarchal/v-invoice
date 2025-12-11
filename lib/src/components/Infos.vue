@@ -7,7 +7,7 @@
     </p>
     <p>
       <span>Date: </span>
-      <span>{{ devis.date | date }}</span>
+      <span>{{ filters.date(devis.date) }}</span>
     </p>
     <p>
       <span>Code Client: </span>
@@ -17,8 +17,14 @@
   </div>
 </template>
 <script>
+import { useFilters } from '../composables/useFilters'
+
 export default {
   name: 'Invoice__header__infos',
-  props: ['devis', 'to']
+  props: ['devis', 'to'],
+  setup() {
+    const filters = useFilters()
+    return { filters }
+  }
 }
 </script>
