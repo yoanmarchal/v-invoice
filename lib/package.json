@@ -31,7 +31,7 @@
     "lerna": "9.0.3",
     "tailwindcss": "3.4.1",
     "vue-loader": "^15.9.7",
-    "vue-template-compiler": "2.6.12"
+    "vue-template-compiler": "2.7.16"
   },
   "bit": {
     "env": {
