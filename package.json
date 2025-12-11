@@ -1,8 +1,15 @@
 {
   "name": "v-invoice",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
-  "main": "./lib/dist/v-invoice.common.js",
+  "main": "./lib/dist/v-invoice.umd.js",
+  "module": "./lib/dist/v-invoice.mjs",
+  "exports": {
+    ".": {
+      "import": "./lib/dist/v-invoice.mjs",
+      "require": "./lib/dist/v-invoice.umd.js"
+    }
+  },
   "scripts": {
     "build:documentation": "npm --prefix documentation run docs:build",
     "build:lib": "npm --prefix lib run build"
