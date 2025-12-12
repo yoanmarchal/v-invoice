@@ -8,7 +8,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.22",
