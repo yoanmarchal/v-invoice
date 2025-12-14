@@ -1,12 +1,12 @@
 <template>
   <div class="container  mx-auto">
-    <Header :devis='devis' :from='from' :to='to'/>
-    <To :to='to'/>
-    <Title :title='title'/>
-    <PaymentMode :paymentmode='config.title' />
-    <TableProducts :products="products"/>
-    <SubTable :devis='devis' :products="products" :LegalInfos='config.LegalInfos'/>
-    <Footer :content="config.footerContent"/>
+    <Header :devis="devis" :from="from" :to="to" />
+    <To :to="to" />
+    <Title :title="title" />
+    <PaymentMode :paymentmode="config.title" />
+    <TableProducts :products="products" />
+    <SubTable :devis="devis" :products="products" :LegalInfos="config.LegalInfos" />
+    <Footer :content="config.footerContent" />
   </div>
 </template>
 

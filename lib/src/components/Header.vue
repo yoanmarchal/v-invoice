@@ -1,7 +1,7 @@
 <template>
   <div class="flex mb-5 py-2">
-    <From :from='from'/>
-    <Infos :devis='devis' :to='to' :from='from'/>
+    <From :from="from" />
+    <Infos :devis="devis" :to="to" :from="from" />
   </div>
 </template>
 <script>
