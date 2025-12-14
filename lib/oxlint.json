@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "no-console": "off",
+    "no-debugger": "off"
+  },
+  "categories": {
+    "correctness": "warn",
+    "suspicious": "warn",
+    "pedantic": "off"
+  }
+}
