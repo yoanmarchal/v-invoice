@@ -1,6 +1,6 @@
 <template>
-  <table class="table w-full text-right mb-5">
-    <thead class="border-black border-b">
+  <table class="w-full text-right mb-5 border-collapse border-spacing-0">
+    <thead class="border-b-2 border-black">
       <tr>
         <th class="py-1">Ref</th>
         <th class="py-1">Description</th>
