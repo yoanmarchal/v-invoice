@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath } from 'node:url'
 
 export default defineConfig({
   base: '/',
@@ -6,6 +7,20 @@ export default defineConfig({
   description: 'Just playing around',
   markdown: {
     lineNumbers: true
+  },
+  vite: {
+    resolve: {
+      alias: {
+        // Permet d'importer depuis la lib locale dans la doc
+        'v-invoice': fileURLToPath(new URL('../../../lib/src', import.meta.url))
+      }
+    },
+    server: {
+      fs: {
+        // Autoriser l'accès au dossier parent (lib)
+        allow: ['.', '..', '../..']
+      }
+    }
   },
   themeConfig: {
     nav: [

@@ -9,12 +9,13 @@
 </template>
 
 <script>
+import Invoice from './components/Invoice.vue'
 import data from './../tests/data/data'
 
 export default {
   name: 'App',
   components: {
-    Invoice: () => import('./components/Invoice.vue')
+    Invoice
   },
   data () {
     return {

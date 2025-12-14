@@ -4,26 +4,24 @@
 
 <table-products-demo/>
 
-``` js
-<TableProducts :products="devis.products"/>
+```js
+<TableProducts :products="devis['invoice-item']" />
 ```
 
 ## Props
-Name | Type   | Description | Default
----- | :----: | ----------- | -----
-products |        |             | 
+Name     | Type   | Description                              | Default
+-------- | :----: | ---------------------------------------- | -------
+products | Array  | Lignes produits (`id`, `title`, `price`, `quantity`) | —
 
-## Slots
-Name     | Slot props       | Description
--------- | -----------      | -----
-default  |                  | 
+### Import local
 
-## Methods
-Name             | Params            | Description
----------------- | ----------------- | -------------------
-method1          |                   |
+```vue
+<script setup>
+import { TableProducts } from 'v-invoice'
+</script>
 
-## Events
-Name             | Params            | Description
----------------- | ----------------- | -------------------
-event1           |                   |
+<template>
+	<TableProducts :products="devis['invoice-item']" />
+	<!-- fournissez la variable devis -->
+</template>
+```

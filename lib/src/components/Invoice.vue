@@ -11,16 +11,24 @@
 </template>
 
 <script>
+import Header from './Header.vue'
+import Footer from './Footer.vue'
+import To from './To.vue'
+import Title from './Title.vue'
+import PaymentMode from './PaymentMode.vue'
+import TableProducts from './TableProducts.vue'
+import SubTable from './Subtable.vue'
+
 export default {
   name: 'Invoice',
   components: {
-    Header: () => import('./Header.vue'),
-    Footer: () => import('./Footer.vue'),
-    To: () => import('./To.vue'),
-    Title: () => import('./Title.vue'),
-    PaymentMode: () => import('./PaymentMode.vue'),
-    TableProducts: () => import('./TableProducts.vue'),
-    SubTable: () => import('./Subtable.vue')
+    Header,
+    Footer,
+    To,
+    Title,
+    PaymentMode,
+    TableProducts,
+    SubTable
   },
   props: ['devis', 'config', 'products', 'from', 'to'],
   computed: {

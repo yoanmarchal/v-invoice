@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Demo</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="/v-invoice/assets/css/tailwind.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #ffffff;
+    }
+    #app {
+      width: 100%;
+      min-height: 100vh;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <invoice-demo />
+  </div>
+
+  <script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+    import InvoiceDemo from '/src/components/InvoiceDemo.vue'
+    
+    createApp({
+      components: {
+        InvoiceDemo
+      }
+    }).mount('#app')
+  </script>
+</body>
+</html>

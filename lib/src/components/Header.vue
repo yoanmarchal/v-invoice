@@ -5,12 +5,15 @@
   </div>
 </template>
 <script>
+import From from './From.vue'
+import Infos from './Infos.vue'
+
 export default {
   name: 'Invoice__header',
   props: ['devis', 'from', 'to'],
   components: {
-    From: () => import('./From.vue'),
-    Infos: () => import('./Infos.vue')
+    From,
+    Infos
   }
 }
 </script>
