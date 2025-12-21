@@ -1,5 +1,5 @@
 [build]
   ignore = "git diff --quiet HEAD^ HEAD packages/lib/"
-  base = "packages/documentation"
-  command = "npm run docs:build"
-  publish = "packages/documentation/docs/.vuepress/dist"
+  # run install at repo root then build documentation workspace
+  command = "npm ci && npm --prefix packages/documentation run docs:build"
+  publish = "packages/documentation/docs/.vitepress/dist"
