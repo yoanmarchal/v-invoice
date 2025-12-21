@@ -2,6 +2,7 @@ node_modules
 # ignore built packages
 packages/lib/dist
 packages/documentation/docs/.vitepress/dist
+packages/documentation/docs/.vitepress/cache/*
 .vscode/tasks.json
 
 # Local Netlify folder
