@@ -29,7 +29,6 @@
     "autoprefixer": "^10.4.22",
     "babel-jest": "^29.7.0",
     "jsdom": "^27.3.0",
-    "lerna": "9.0.3",
     "oxfmt": "^0.17.0",
     "oxlint": "^1.32.0",
     "postcss": "^8.4.47",
