@@ -35,9 +35,9 @@ export default {
   },
   computed: {
     total () {
-      return this.products.map((product) => {
-        return (product.price * product.quantity)
-      }).reduce((sum, elem) => sum + elem)
+      return this.products
+        .map((product) => product.price * product.quantity)
+        .reduce((sum, elem) => sum + elem, 0)
     },
     toPay () {
       return (this.total - this.devis.alreadypaid)
