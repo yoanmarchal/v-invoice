@@ -8,11 +8,12 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.22",
-    "postcss": "^8.4.47",
+    "@tailwindcss/postcss": "^4.3.0",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
     "vitepress": "^1.6.4"
   }
 }
