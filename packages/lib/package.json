@@ -29,7 +29,7 @@
     "@vue/test-utils": "^2.4.10",
     "autoprefixer": "^10.5.0",
     "babel-jest": "^30.4.1",
-    "jsdom": "^29.1.1",
+    "jsdom": "^30.0.0",
     "oxfmt": "^0.52.0",
     "oxlint": "^1.67.0",
     "postcss": "^8.5.15",
